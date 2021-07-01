@@ -1,0 +1,155 @@
+<aura:component
+  controller="ApplicationApprovalController"
+  implements="forceCommunity:availableForAllPageTypes"
+  access="global"
+>
+  <ltng:require styles="/resource/slds2133/assets/styles/salesforce-lightning-design-system-ltng.min.css" />
+
+  <aura:attribute name="ApplicationName" type="String" />  
+  <aura:attribute name="FirstName" type="String" />
+  <aura:attribute name="LastName" type="String" />
+  <aura:attribute name="Email" type="String" />
+  <aura:attribute name="Company" type="String" />
+  <aura:attribute name="Description" type="String" />
+  <aura:attribute name="errorLabel" type="String" default=''/>
+  <aura:handler event="aura:waiting" action="{!c.showSpinner}" />
+  <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}" />
+  <!--create a component attributes -->
+  <aura:attribute name="reCaptchaSuccess" type="Boolean" default="true" />
+  <aura:attribute name="Spinner" type="boolean" default="false" />
+  <aura:attribute name="isVisible" type="boolean" default="true" />
+  <aura:attribute name="availableAPIs" type="List"/>
+  <aura:attribute name="selectedAPIs" type="List"/>
+  <aura:attribute name="requestSubmitted" type="Boolean" default="false"/>
+  <aura:handler name="init" value="{!this}" action="{!c.loadAPIOptions}" />
+  <lightning:navigation aura:id="navService"/>
+  <!--loading spinner start... style=Brand Medium (blue dots)-->
+  <aura:if isTrue="{!v.Spinner}">
+    <div aura:id="spinnerId" class="slds-spinner_container slds-align_absolute-center">
+      <div
+        class="slds-spinner--brand slds-spinner slds-spinner--large slds-is-relative"
+        role="alert">
+        <span class="slds-assistive-text">Loading</span>
+        <div class="slds-spinner__dot-a"></div>
+        <div class="slds-spinner__dot-b"></div>
+      </div>
+    </div>
+  </aura:if>
+    <aura:if isTrue="{!not(v.requestSubmitted)}">
+  <div class="form-intro slds-box slds-align_absolute-center slds-p-around_xxx-small">
+      	<div class="request-app-content">
+      		<h1 class="request-app-header">Request Application Authorization</h1>
+      		<p >Select one or more APIs and enter your Application information.</p>
+      	</div>
+  </div>
+</aura:if>
+  <lightning:layout class="slds-align_absolute-center" verticalAlign="center">
+    <lightning:layoutItem padding="around-small" size="6">
+        <aura:if isTrue="{!not(v.requestSubmitted)}">
+            <div aria-labelledby="newform">
+        <fieldset class="slds-box slds-theme_default slds-container_medium">
+          <legend
+            id="newform"
+            class="slds-text-heading_small slds-var-p-vertical_medium login-heading"
+          ></legend>
+            <aura:if isTrue="{!not(v.errorLabel == '')}">
+            <div id="error" class="error-box">
+              <ui:outputRichText value="{!v.errorLabel}" />
+            </div>
+             </aura:if>    
+            <form class="">
+                <lightning:dualListbox aura:id="APISelect" name="APISelect"  label="Select APIs" 
+                       sourceLabel="Available APIs" 
+                       selectedLabel="Selected APIs" 
+                       options="{!v.availableAPIs}" 
+                       value="{!v.selectedAPIs}"
+						min="1"
+                       />
+             
+              <lightning:input
+                aura:id="FormVal"
+                label="Application Name"
+                name="ApplicationName"
+                type="text"
+                placeholder="The application name that the member will see"
+                value="{!v.ApplicationName}"
+                required="true"
+                class="slds-var-m-bottom_medium"
+              />
+              <lightning:input
+                aura:id="FormVal"
+                label="First Name"
+                name="FirstName"
+                type="text"
+                placeholder="Developer First Name"
+                value="{!v.FirstName}"
+                required="true"
+                class="slds-var-m-bottom_medium"
+              />
+              <lightning:input
+                aura:id="FormVal"
+                label="Last Name"
+                name="LastName"
+                type="text"
+                placeholder="Developer Last Name"
+                value="{!v.LastName}"
+                required="true"
+                class="slds-var-m-bottom_medium"
+              />
+              <lightning:input
+                aura:id="FormVal"
+                label="Email"
+                name="Email"
+                type="email"
+                placeholder="Enter your Email"
+                value="{!v.Email}"
+                required="true"
+                class="slds-var-m-bottom_medium"
+              />
+              <lightning:input
+                aura:id="FormVal"
+                label="Company"
+                name="Company"
+                type="text"
+                placeholder="The company name that the member will see"
+                value="{!v.Company}"
+                required="true"
+                class="slds-var-m-bottom_medium"
+              />
+               <lightning:textarea
+                aura:id="FormVal"
+                name="Description" 
+                required="true" 
+                value="{!v.Description}" 
+                placeholder="Enter an description of your Application." 
+                label="Description" 
+                maxlength="512" 
+                messageWhenTooLong="A maximum of 512 characters is supported." 
+                messageWhenValueMissing="Description is a required field." 
+              />
+    
+              <lightning:button
+                aura:id="register"
+                label="Register"
+                class="slds-float--right slds-var-m-bottom_medium slds-var-m-top_medium"
+                variant="brand"
+                onclick="{!c.handleRegister}"
+              />
+             
+            </form>
+        </fieldset>
+      </div>
+         <aura:set attribute="else">
+             <div class="register-container">
+    <div class="register-content">
+        <h1 class="register-header">Application Authorization Request Submitted!</h1>
+        
+    </div>
+</div>
+      		
+    	</aura:set>
+        </aura:if>
+      
+    </lightning:layoutItem>
+  </lightning:layout>
+</aura:component>

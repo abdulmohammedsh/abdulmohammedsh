@@ -1,0 +1,123 @@
+{
+  "activeBrandingSetId" : "ed511c9b-6ed3-4942-acfd-d009900d3a7e",
+  "customCSS" : ".error-box{\n    color:red;\n    padding:50px;\n    border:1px solid red;\n    border-radius:4px;\n}\n \n.footer-info{\n    background-color: rgb(93, 134, 46);\n    padding: 15px 0 0 0 !important;\n    height:80px;\n    width:100%;\n}\n\n.footer-content-container{\n\twidth:100%;\n    background-color: #7F8084;\n}\n.footer-content{\n    background-color: #7F8084;\n    color:#FFFFFF;\n    height:65px;\n    padding: 0 10px 0 10px;\n    width:100%;\n    max-width:1440px;\n    margin:auto;\n}\n\n.footer-social{\n\tpadding:18px 12px 12px 0px; \n    float:right;\n}\n.footer-social a{\n\tmargin-left:6px;\n}\n.footer-social a img{\n\twidth:24px;\n    height:24px;\n}\n\n.register-container{\n    padding:50px;\n    border:1px solid #333;\n    border-radius:4px;\n}\n.register-content{\n    text-align:center;\n}\n.register-body,\n.register-header{\n    padding:12px ;\n}\n.register-button{\n    display:block;\n    padding:12px 24px;\n    border-radius:4px;\n    background-color:rgb(93, 134, 46);\n    color:white !important;\n    width:fit-content;\n    margin:12px auto;\n}\n.register-app-header{\n    font-size:16px;\n    color:93, 134, 46;\n    text-align:center;\n    padding:12px 12px 12px 12px;\n    \n}\n.register-app-body{\n    width:fit-content;\n    text-align:center;\n   margin:0 auto;\n}\n.register-app-container {\n    min-height:240px;\n    padding:50px;\n    border:1px solid #333;\n    border-radius:4px;\n}\n.register-app-button{\n    display:block;\n    padding:12px 24px 12px 24px;\n    border-radius:4px;\n    background-color:rgb(93, 134, 46);\n    color:white !important;\n    width:fit-content;\n    margin:12px auto 12px auto;\n}\n.forum-container{\n    padding:40px;\n    border:0px solid #333;\n    border-radius:4px;\n    background-color:rgb(127, 128, 132);\n}\n.forum-content{\n    text-align:center;\n    color:white;\n}\n.forum-body,\n.forum-header{\n    padding:12px\n}\n.forum-button{\n    display:block;\n    padding:12px 24px;\n    border-radius:4px;\n    background-color:rgb(93, 134, 46);\n    color:white !important;\n    width:fit-content;\n    margin:12px auto;\n}\n\n.static-container{\n    background-image:url(../../../sfsites/c/file-asset/manpointing?v=1);\n    height:250px;\n    background-position:center;\n    background-repeat:no-repeat;\n    display:grid;\n    grid-template-columns:50% 50%;\n    border-radius:4px;\n}\n.static-content{\n    text-align:center;\n    grid-column:2;\n    vertical-align: middle;\n    margin: auto;\n}\n.static-body,\n.static-header{\n    padding:12px\n}\n.static-button{\n    display:block;\n    padding:12px 24px;\n    border-radius:4px;\n    background-color:rgb(93, 134, 46);\n    color:white !important;\n    width:fit-content;\n    margin:12px auto;\n}\n\n.breadcrumb-container{\n    margin-top: 4pt;\n    color: #333 !important;\n    font-size: 12px;\n}\n\n.breadcrumb,\n.breadcrumb-last{\n    margin-right: 16pt;\n    color: #333 !important;\n}\n.breadcrumb-last{\n    font-weight:bold;\n}\n.breadcrumb-hr{\n    border:1px solid rgb(93, 134, 46);\n    margin: 16pt 0pt;\n}\n\n.forceChatterScroller{\n    width:100% !important;\n}",
+  "developerName" : "acm_template",
+  "id" : "b09f0999-1ac7-4216-bcb5-5ebdc99165a4",
+  "label" : "Build Your API Community",
+  "layouts" : {
+    "Home" : "5ed56d32-4346-4ad2-a5bb-b2fe82d37e5a",
+    "Inner" : "b48c8c1a-0a4d-4523-b14d-b0a272006e0b",
+    "Login" : "035582d9-f27a-4272-852f-3a162aa4463d"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "035582d9-f27a-4272-852f-3a162aa4463d",
+    "label" : "acm_pkg__Login",
+    "regions" : [ {
+      "id" : "c1d50ea7-e7c0-4f89-b28a-2c6e8788fdab",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "21870e15-f3b7-4205-9846-9fb89721602e",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "f62045c3-7e37-48de-ba20-9eae5192008c",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "contentMargin" : true,
+      "showCompanyLogo" : false,
+      "showProfileMenu" : true,
+      "showSearch" : false
+    },
+    "componentName" : "acm_pkg:acmLayout",
+    "id" : "b48c8c1a-0a4d-4523-b14d-b0a272006e0b",
+    "label" : "acm_pkg__Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "resultPageUrl" : "search-results",
+          "resultsToShow" : "4",
+          "searchInApiGroups" : true,
+          "searchInApis" : true,
+          "searchInApplications" : true,
+          "searchInCases" : true,
+          "searchInDiscussions" : true,
+          "searchInKnowledgeArticles" : true,
+          "searchInManagedContent" : false,
+          "searchInTopics" : true
+        },
+        "componentName" : "acm_pkg:acmSearch",
+        "id" : "9879a3f9-9b55-45bf-ba03-1f71eb72b246",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "affb9ec4-73fe-4663-aa5f-5457b1cb4d07",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "acm_pkg:acmStaticFooter",
+        "id" : "bdac6255-d256-4b38-a288-22bba403d773",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "622b35af-84a3-455a-b133-bb4a5a411a80",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "contentMargin" : true,
+      "showCompanyLogo" : false,
+      "showProfileMenu" : true,
+      "showSearch" : true
+    },
+    "componentName" : "acm_pkg:acmLayout",
+    "id" : "5ed56d32-4346-4ad2-a5bb-b2fe82d37e5a",
+    "label" : "acm_pkg__Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "resultPageUrl" : "search-results",
+          "resultsToShow" : "4",
+          "searchInApiGroups" : true,
+          "searchInApis" : true,
+          "searchInApplications" : true,
+          "searchInCases" : true,
+          "searchInDiscussions" : true,
+          "searchInKnowledgeArticles" : true,
+          "searchInManagedContent" : false,
+          "searchInTopics" : true
+        },
+        "componentName" : "acm_pkg:acmSearch",
+        "id" : "1c10b216-cbc1-4315-b7a6-6af117bace9b",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "fe9647f9-5db9-4cb5-afd7-0d8e9d434519",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "acm_pkg:acmStaticFooter",
+        "id" : "d9e70484-fbb1-4806-be58-f1c10d786580",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "1c711811-b570-4fce-af90-740c409f45a8",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

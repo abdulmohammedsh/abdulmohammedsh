@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "cc60ff81-d97b-4bd0-8076-bd7f386e7a14",
+  "appPageId" : "3312f1a9-dbfa-46b8-a10f-e5c415a40840",
+  "configurationTags" : [ ],
+  "id" : "1433f786-b540-40f7-805d-4f7362641efc",
+  "label" : "Edit User Info",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-Edit User Info",
+  "type" : "route",
+  "urlPrefix" : "edit-user-info"
+}

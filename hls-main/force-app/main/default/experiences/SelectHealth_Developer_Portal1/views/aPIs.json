@@ -1,0 +1,188 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "d340359c-347a-4cb0-83a2-1d253649b4a8",
+  "label" : "APIs",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8ca41698-4c0d-4112-9862-fa7335fe163e",
+          "columns" : [ {
+            "UUID" : "22c631fc-3fa5-442b-9762-2f97ff298fbf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8ca41698-4c0d-4112-9862-fa7335fe163e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">APIs</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "4e5f965c-7904-4128-945f-32662edbac13",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "22c631fc-3fa5-442b-9762-2f97ff298fbf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "41f0d54d-e322-4d99-8a78-1267b557765f",
+          "columns" : [ {
+            "UUID" : "2b3832d3-4c9a-45ff-b5cc-e7dce614973d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "96d063df-ee01-4454-82f1-4f5988766ea7",
+            "columnKey" : "8c7e7",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "41f0d54d-e322-4d99-8a78-1267b557765f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "apiFilter" : "",
+            "arrowSize" : "Large",
+            "cardBorder" : "Thin",
+            "cardBorderRadius" : "Small",
+            "cardBoxShadow" : "Medium",
+            "cardHeight" : "Medium",
+            "cardMargin" : "Small",
+            "detailsLabel" : "API Details",
+            "emptyMessage" : "There are no APIs available right now, stay tuned!",
+            "filter" : "",
+            "groupDetailsLabel" : "More Info ...",
+            "iconPosition" : "Left",
+            "learnMoreLabel" : "Learn more",
+            "listMode" : false,
+            "maxNumberCards" : "4",
+            "rows" : "4",
+            "showApiType" : "Groups",
+            "showArrows" : true,
+            "showButtons" : false,
+            "showDots" : false
+          },
+          "componentName" : "acm_pkg:ApiVersionCarousel",
+          "id" : "4780b733-c658-48b5-80be-b865c8890994",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2b3832d3-4c9a-45ff-b5cc-e7dce614973d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"register-container\">\n    <div class=\"register-content\">\n        <h1 class=\"register-header\">Request Access to SelectHealth APIs</h1>\n        <p class=\"register-body\">Request Access to APIs and begin developing.</p>\n        <a class=\"register-button\" href=\"../../../../s/api-access-request\">Request API Access</a>\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "e8088983-7c21-4d27-a37d-c0b0c3311ef7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "96d063df-ee01-4454-82f1-4f5988766ea7",
+        "regionLabel" : "Column 2",
+        "regionName" : "8c7e7",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "5943bae7-edb2-47be-9492-4749c81b5438",
+          "columns" : [ {
+            "UUID" : "d22cb55e-4f98-48b5-a2d2-2d2d392048de",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5943bae7-edb2-47be-9492-4749c81b5438",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "e828387e-f375-4661-84d4-7597f639e2b1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d22cb55e-4f98-48b5-a2d2-2d2d392048de",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "73dead72-458f-4260-9555-050788c51456",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "APIs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "14435f39-b22a-4bc8-9506-3d5a2e84f784",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bdca873d-c7b2-4fe0-9420-7cabfb0b887b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "6UY4NAKxqH1yAMBAGPqTUsLTX2aMXw",
+  "type" : "view",
+  "viewType" : "custom-APIs"
+}

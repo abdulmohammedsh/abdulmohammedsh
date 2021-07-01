@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_data_will_be_shared__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does your Privacy Policy state if the user&apos;s data will be shared or sold (at any time)?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does your Privacy Policy state if the user&apos;s data will be shared or sold (at any time)?</inlineHelpText>
+    <label>User data will be shared?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

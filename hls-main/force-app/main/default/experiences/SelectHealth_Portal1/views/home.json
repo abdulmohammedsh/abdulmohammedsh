@@ -1,0 +1,88 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "a82f11bd-0e88-44c3-b9c6-a7f2954ac3e5",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "eb0fe743-4bf4-4ab9-83d9-4d4d26cb6a74",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><b style=\"font-size: 22px; font-family: verdana; color: rgb(0, 138, 0);\">Welcome</b></h1><p><span style=\"font-family: verdana; font-size: 16px;\">Pursuant to CMS Interoperability requirements the SelectHealth developer portal provides instructions for app developers to access the Patient Access and Provider Directory APIs. This portal may also provide information and access to other APIs that are published by SelectHealth.</span></p><h1 style=\"text-align: center;\"><span style=\"color: rgb(0, 138, 0);\">Browse the latest integration options SelectHealth has to offer</span></h1><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "908867ba-2ac9-499e-83d4-ff5346fea91a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "arrowSize" : "Small",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Medium",
+        "cardBoxShadow" : "Smooth",
+        "cardHeight" : "Medium",
+        "cardMargin" : "Medium",
+        "detailsLabel" : "API Details",
+        "emptyMessage" : "There are no APIs available right now, stay tuned!",
+        "groupDetailsLabel" : "More Info",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "listMode" : false,
+        "maxNumberCards" : "4",
+        "rows" : "1",
+        "showApiType" : "Groups",
+        "showArrows" : true,
+        "showButtons" : false,
+        "showDots" : false
+      },
+      "componentName" : "acm_pkg:ApiVersionCarousel",
+      "id" : "89ab6afa-0e13-4ab1-9dcf-7496550ee2bd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eeb3ebd5-ac3d-458b-8697-efbf9cee4261",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ba79d1be-d680-4c76-9841-2543942540df",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SelectHealth Developer Portal"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "982e4166-8159-433e-97fd-1f972ed401e9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ad79d5c8-c121-474e-9f2c-8a45823f0be8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"auth-callout-container\" style=\"display:grid; gap: 5px; grid-template-columns: 100%\">\n    <div class=\"register-container\">\n        <div class=\"register-content\">\n            <h1 class=\"register-header\">Request Access to APIs</h1>\n            <p class=\"register-body\">Request Access to APIs and begin developing. Access to the Patient Access API requires a user account. </p>\n             <p class=\"register-body\">Compliance and agreement to our <a href=\"https://www.selecthealth.org/developers/terms-of-use\" style=\"color:#A9E2FF;\">Terms of Use</a> is required to access and use Interoperability APIs. \n            Our terms of service are compliant with data blocking and other CMS rules pertaining to access.</p>\n            <a class=\"register-button\" href=\"./api-access-request\">Request API Access</a>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "85ef6359-eebc-4e9b-8c2c-0aeeea17c632",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e0fe4107-1767-4fc7-8274-f7bb1b3d821e",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

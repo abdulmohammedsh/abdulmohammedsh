@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c6e91f51-41dc-42f4-9b60-6be5a4c662a7",
+  "appPageId" : "3312f1a9-dbfa-46b8-a10f-e5c415a40840",
+  "configurationTags" : [ ],
+  "id" : "bd3ba279-81ee-451f-95ac-2976310479ab",
+  "label" : "Virtual Object Data Template Related List",
+  "objectApiName" : "acm_pkg__AnypointApplications__x",
+  "routeType" : "relatedlist-x0E",
+  "type" : "route",
+  "urlPrefix" : "anypointapplications"
+}

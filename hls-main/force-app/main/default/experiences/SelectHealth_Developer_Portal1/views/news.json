@@ -1,0 +1,57 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "7726da82-e373-4c53-b833-0e02ebad1d60",
+  "label" : "News",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">News</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e83dd837-1053-4308-9c79-287255e83c2f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2e440f27-6645-4a4c-bf16-04bd93fb9a5c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : "{\"dataProviderDefinition\":{\"componentName\":\"forceCommunity:managedContentCollectionDataProvider\",\"attributes\":{\"dataProviderType\":\"NamedCollection\",\"dataProviderInfo\":{\"apiName\":\"News\"}}},\"schemaVersion\":\"V2.0\",\"collectionLayoutDefinition\":{\"componentName\":\"forceCommunity:dynamicCollectionGrid\",\"attributes\":{\"columns\":\"1\",\"rows\":\"15\",\"spacing\":\"medium\",\"showCollectionTitle\":false,\"collectionTitle\":\"News\",\"showViewMoreButton\":true,\"viewMoreButtonLabel\":\"View More Items\",\"viewMoreButtonPlacement\":\"center\",\"viewMoreButtonRadius\":4,\"viewMoreButtonBackgroundColor\":\"\",\"viewMoreButtonBackgroundColorHover\":\"\",\"viewMoreButtonTextColor\":\"\",\"viewMoreButtonTextColorHover\":\"\",\"viewMoreButtonBorderColor\":\"\",\"viewMoreButtonBorderColorHover\":\"\",\"collectionTitleHeadingTag\":\"h2\"}},\"itemLayoutDefinition\":{\"componentName\":\"forceCommunity:cardLayout\",\"attributes\":{\"showTitle\":true,\"showFeaturedMedia\":true,\"showExcerpt\":true,\"showFlag\":true,\"showEyebrow\":true,\"showMetadata1\":true,\"showMetadata2\":true,\"showDateTime\":true,\"title\":\"{!CurrentItem.title}\",\"subTitle\":\"{!CurrentItem.excerpt}\",\"imageUrl\":\"{!CurrentItem.bannerImage.url}\",\"imageAltText\":\"{!CurrentItem.excerpt}\",\"videoUrl\":\"\",\"flagText\":\"\",\"eyebrowText\":\"\",\"metadata1Text\":\"\",\"metadata2Text\":\"\",\"datetime\":\"\",\"contentVerticalAlignment\":\"center\",\"textAlignment\":\"left\",\"contentBackgroundColor\":\"#ffffff\",\"componentPadding\":\"none\",\"contentOffset\":\"0\",\"contentOffsetPadding\":\"0\",\"contentOffsetBackgroundColor\":\"#ffffff\",\"borderColor\":\"\",\"componentBorderStyles\":\"\",\"useAspectRatio\":false,\"mediaHeight\":\"220\",\"mediaAspectRatio\":\"16:9\",\"backgroundSize\":\"cover\",\"backgroundPosition\":\"center center\",\"imageAlignment\":\"left\",\"imageWidth\":\"31\",\"imageBorderColor\":\"#ffffff\",\"imageBorderStyles\":\"\",\"flagBackgroundColor\":\"#ff0000\",\"flagTextColor\":\"#ffffff\",\"flagConstraints\":\"media\",\"flagAlignment\":\"top left\",\"flagRotation\":0,\"flagSpacing\":\"medium\",\"flagBorderColor\":\"#ffffff\",\"flagBorderStyles\":\"{\\\"borderTopLeftRadius\\\":{\\\"value\\\":\\\"0\\\"},\\\"borderTopRightRadius\\\":{\\\"value\\\":\\\"0\\\"},\\\"borderBottomRightRadius\\\":{\\\"value\\\":\\\"0\\\"},\\\"borderBottomLeftRadius\\\":{\\\"value\\\":\\\"0\\\"}}\",\"flagTextDecoration\":\"\",\"titleHeadingTag\":\"p\",\"titleTextColor\":\"\",\"titleFontSize\":\"large\",\"titleTextDecoration\":\"\",\"showTitleHighlight\":false,\"titleHighlightColor\":\"\",\"subTitleTextColor\":\"\",\"subTitleFontSize\":\"regular\",\"eyebrowTextColor\":\"\",\"eyebrowFontSize\":\"regular\",\"eyebrowTextDecoration\":\"\",\"showEyebrowHighlight\":false,\"eyebrowHighlightColor\":\"\",\"metadataTextColor\":\"\",\"metadataFontSize\":\"regular\",\"metadataTextDecoration\":\"\",\"showMetadata1Highlight\":false,\"metadata1HighlightColor\":\"\",\"showMetadata2Highlight\":false,\"metadata2HighlightColor\":\"\",\"defaultLinksOverrides\":\"{}\",\"additionalLinks\":\"{}\",\"dateFormat\":\"none\",\"displayDayOfWeek\":false,\"timeFormat\":\"none\",\"timeZoneOptions\":\"none\",\"timeZoneDisplay\":\"short\",\"datetimeTextColor\":\"\",\"datetimeFontSize\":\"regular\",\"datetimeTextDecoration\":\"\",\"componentHoverEffect\":\"none\"}}}"
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "9043d341-3305-4e9a-b98b-c2711edb02d8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dcd174c9-1713-43e0-bec5-2d62e08e7479",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "178c046f-54e4-430a-8daf-38a4e62261e7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "News"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4634b9ec-f4b4-467a-96b5-e04c1a3f8ef1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ff7b1186-7a53-4b5a-9944-23afc3aa6fb0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "zMKqlh2P3aHwdLM2fsMhGywSdaKV5C",
+  "type" : "view",
+  "viewType" : "custom-News"
+}

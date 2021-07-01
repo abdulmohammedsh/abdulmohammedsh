@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "fbdf81ff-26ae-4dc1-9f13-7283668d04bd",
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "configurationTags" : [ ],
+  "id" : "d3833b85-0e1f-470c-a588-c155ab798dee",
+  "label" : "forumspage",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-forumspage",
+  "type" : "route",
+  "urlPrefix" : "forumspage"
+}

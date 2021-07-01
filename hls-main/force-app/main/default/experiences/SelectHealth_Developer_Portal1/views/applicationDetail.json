@@ -1,0 +1,47 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "371f5ebc-0528-4630-9206-e958772821b0",
+  "label" : "Application Detail",
+  "regions" : [ {
+    "id" : "46753ef5-b2d6-414c-aa8c-020a514686ce",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "acm_pkg:ApplicationDetails",
+      "id" : "a7c231bd-71d7-4d82-82a7-96ade3addce3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cd660e8f-561d-4c01-bf4c-9ec8decdf7f9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0278e121-bd05-456d-a2c9-f9d716bb0fdf",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "54b932f2-665b-4f3c-8190-d76226bc5c88",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d27cd541-47db-46c4-8f79-e5f8b8990e5e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-x0E"
+}

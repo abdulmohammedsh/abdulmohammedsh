@@ -1,0 +1,133 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "516d9658-08c9-497a-a961-25be33d93726",
+  "label" : "API Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiGroupButtonText" : "Learn More about this API Group",
+        "buttonText" : "Learn More",
+        "recordId" : "{!recordId}",
+        "showAccessRequester" : false,
+        "showApiVersion" : false,
+        "showLearnMore" : true
+      },
+      "componentName" : "acm_pkg:ApiVersionHeader",
+      "id" : "e7f07b49-1f78-4ab8-a071-5cadd21c19b6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "buttonAlign" : "Left",
+        "buttonBorderRadius" : "Little",
+        "recordId" : "{!recordId}",
+        "requireRedirectUris" : false,
+        "showModalTitleLine" : true
+      },
+      "componentName" : "acm_pkg:ApiAccessRequester",
+      "id" : "fcce6129-ed02-45e9-93c5-7f9ece19c8ef",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b2151dba-7646-42c3-9765-3ad3795466d0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "c646b0e8-f594-4d04-97f8-ee1cb32402b1",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "b085dcca-9166-470b-bd1f-5f3455afde98",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "API Documentation"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "c646b0e8-f594-4d04-97f8-ee1cb32402b1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "color" : "#314a73",
+            "layout" : "Horizontal",
+            "options" : "All",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "acm_pkg:specDownloader",
+          "id" : "ab94a5bc-3b19-4aba-983d-d423fef3ae21",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonColor" : "{!'white'}",
+            "buttonHoverColor" : "{!'white'}",
+            "errorColor" : "",
+            "headlineFontFamily" : "",
+            "initWithEndpointsExpanded" : "",
+            "isFilteringEnabled" : "",
+            "linkHoverColor" : "",
+            "methodLabelDeleteBackgroundColor" : "",
+            "methodLabelDeleteColor" : "",
+            "methodLabelGetBackgroundColor" : "",
+            "methodLabelGetColor" : "",
+            "methodLabelHeadBackgroundColor" : "",
+            "methodLabelHeadColor" : "",
+            "methodLabelOptionsBackgroundColor" : "",
+            "methodLabelOptionsColor" : "",
+            "methodLabelPatchBackgroundColor" : "",
+            "methodLabelPatchColor" : "",
+            "methodLabelPostBackgroundColor" : "",
+            "methodLabelPostColor" : "",
+            "methodLabelPutBackgroundColor" : "",
+            "methodLabelPutColor" : "",
+            "recordId" : "{!recordId}",
+            "showDocumentation" : "",
+            "unsupportedApiGroupMessage" : "API Console is not supported for API Group."
+          },
+          "componentName" : "acm_pkg:ApiConsole",
+          "id" : "d90c4d77-c35f-4d6f-b0d3-007eaecdbc49",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b085dcca-9166-470b-bd1f-5f3455afde98",
+        "regionLabel" : "API Documentation",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f02a2155-fdd1-41b6-8f2b-5052f64b782c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2ebbb786-4e58-4a37-9afc-d933a6d905c6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "445d660e-c535-4d83-a48e-e6cf5c1100c4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "31C7Iavitj7CFeGjxanQL0OsP0EclI",
+  "type" : "view",
+  "viewType" : "detail-a08"
+}

@@ -1,0 +1,47 @@
+{
+  "appPageId" : "3f87afb2-ebda-4d55-8721-15a347e0faf0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "a9fea526-ef7e-4c20-aa5d-1347af51bdbf",
+  "label" : "Error",
+  "regions" : [ {
+    "id" : "60ca670b-2b7a-4981-b430-0b27ba4901bd",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "errorPageLegend" : "The page you tried to reach is not available"
+      },
+      "componentName" : "acm_pkg:errorPage",
+      "id" : "daf2932b-cc25-4bb0-b7ac-c2c31a6a6cad",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1087f5ab-6ecc-41c0-bc02-f6b6ec943ce1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8afef470-446e-461a-8f08-4c05be3eef54",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Error"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8b14a652-671e-4366-92d2-f0bafbc601a1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a08e039b-e105-4de9-8cc4-897ec481a172",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

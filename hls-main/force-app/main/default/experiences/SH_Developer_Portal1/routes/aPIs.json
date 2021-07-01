@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "83e08e13-0d20-41dd-983d-343e293d53f6",
+  "appPageId" : "3f87afb2-ebda-4d55-8721-15a347e0faf0",
+  "configurationTags" : [ ],
+  "id" : "023351a8-d500-4b90-a666-3fa624b53cec",
+  "label" : "APIs",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-APIs",
+  "type" : "route",
+  "urlPrefix" : "apis"
+}

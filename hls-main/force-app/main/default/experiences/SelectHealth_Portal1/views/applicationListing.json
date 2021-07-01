@@ -1,0 +1,53 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "c13ba92e-8d56-4c82-8d9d-68f80145dc2e",
+  "label" : "Application Listing",
+  "regions" : [ {
+    "id" : "6de9f58a-332f-45e2-9362-d74961e9949b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "None",
+        "cardBoxShadow" : "None",
+        "cardHeight" : "3",
+        "cardMargin" : "Medium",
+        "cardWidth" : "Thin",
+        "newAppUrl" : "You have no applications registered yet. To register an application, go to an API and request access."
+      },
+      "componentName" : "acm_pkg:ApiApplicationListing",
+      "id" : "c73e7f33-c8e4-4460-a33c-4070f19d597b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "145a7d9d-927d-4641-978d-17d52f1b36b6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9b2122e2-44a7-4a52-ab9a-a048f9d85a17",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Application Listing"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d69161a2-d6ab-4b1f-9827-9ff9e609ab99",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d0904f4-ccd4-4ab4-a7fd-0a5bd464ac79",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-Application Listing"
+}

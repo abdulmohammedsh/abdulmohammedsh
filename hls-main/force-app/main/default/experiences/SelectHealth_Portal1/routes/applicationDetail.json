@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "03589d79-d8ef-435b-94eb-3c535e24ed52",
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "configurationTags" : [ ],
+  "id" : "89c2d33c-c2cc-46d6-8311-64f792070339",
+  "label" : "Application Detail",
+  "objectApiName" : "acm_pkg__AnypointApplications__x",
+  "routeType" : "detail-x0E",
+  "type" : "route",
+  "urlPrefix" : "anypointapplications"
+}

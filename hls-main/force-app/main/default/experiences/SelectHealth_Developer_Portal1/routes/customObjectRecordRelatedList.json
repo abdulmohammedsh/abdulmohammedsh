@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "da593869-c5b2-45fd-b225-76dff54f7ab7",
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "configurationTags" : [ ],
+  "id" : "fdfc6559-2a66-4fab-a16f-f9a2875c68e7",
+  "label" : "Custom Object Record Related List",
+  "objectApiName" : "acm_pkg__CommunityApi__c",
+  "routeType" : "relatedlist-a08",
+  "type" : "route",
+  "urlPrefix" : "api-details"
+}

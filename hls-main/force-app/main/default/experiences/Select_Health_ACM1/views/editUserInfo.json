@@ -1,0 +1,45 @@
+{
+  "appPageId" : "3312f1a9-dbfa-46b8-a10f-e5c415a40840",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "cc60ff81-d97b-4bd0-8076-bd7f386e7a14",
+  "label" : "Edit User Info",
+  "regions" : [ {
+    "id" : "a0a26ec2-a096-474a-bab6-47be677606c7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "acm_pkg:editUserInfo",
+      "id" : "80d6e72c-ab4f-4d23-914b-705807cc056b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7b61e2ad-3838-4be3-be99-429e934a1340",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a5d23e9d-2e23-4146-95f8-0d1b1182c89e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Edit User Info"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7aa95a0d-34c4-4e71-84a8-779c16256966",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dee1880d-4175-4d8e-960c-7682a9d33d94",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-Edit User Info"
+}

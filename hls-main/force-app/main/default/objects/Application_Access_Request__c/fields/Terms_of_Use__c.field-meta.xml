@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terms_of_Use__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Required before the form can be submitted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Required before the form can be submitted.</inlineHelpText>
+    <label>Do you agree to our Terms of Use?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

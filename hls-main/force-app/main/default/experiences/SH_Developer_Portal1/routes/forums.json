@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ff7fd681-4337-42b5-a55a-db1ce076177f",
+  "appPageId" : "3f87afb2-ebda-4d55-8721-15a347e0faf0",
+  "configurationTags" : [ ],
+  "id" : "f1be9d2e-6d61-433c-8c45-7003bb9dca3b",
+  "label" : "Forums",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-Forums",
+  "type" : "route",
+  "urlPrefix" : "forums"
+}

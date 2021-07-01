@@ -1,0 +1,158 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "77e3e2be-fdc6-4267-a78c-4d376cb3d393",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 95,
+        "sectionConfig" : {
+          "UUID" : "76d63604-83d7-4d52-a81a-63338f4643db",
+          "columns" : [ {
+            "UUID" : "4ca98929-aa3c-4097-ba68-817299521330",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "7",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "7e2586bf-caa0-461e-9294-6a22f54008c0",
+            "columnKey" : "aa121",
+            "columnName" : "Column 2",
+            "columnWidth" : "5",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 240
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "76d63604-83d7-4d52-a81a-63338f4643db",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><b style=\"font-size: 22px; color: rgb(0, 138, 0); font-family: verdana;\">Welcome</b></h1><p><br></p><p><span style=\"font-size: 16px; font-family: verdana;\"><span class=\"ql-cursor\">﻿</span>Pursuant to CMS Interoperability requirements the SelectHealth developer portal provides instructions for app developers to access the Patient Access and Provider Directory APIs. This portal may also provide information and access to other APIs that are published by SelectHealth.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "1a025ba5-80b9-4353-bbf0-a4c3bcd4a261",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4ca98929-aa3c-4097-ba68-817299521330",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"auth-callout-container\" style=\"display:grid; gap: 5px; grid-template-columns: 100%\">\n    <div class=\"register-container\">\n        <div class=\"register-content\">\n            <h1 class=\"register-header\">Request Access to APIs</h1>\n            <p class=\"register-body\">Request Access to APIs and begin developing. Access to the Patient Access API requires a user account. </p>\n             <p class=\"register-body\">Compliance and agreement to our <a href=\"./terms-of-service\" style=\"color:#A9E2FF;\">Terms of Service</a> is required to access and use Interoperability APIs. \n            Our terms of service are compliant with data blocking and other CMS rules pertaining to access.</p>\n            <a class=\"register-button\" href=\"./api-access-request\">Request API Access</a>\n        </div>\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "da7fbcf0-375b-4b9a-ab8c-2ec416d4f843",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7e2586bf-caa0-461e-9294-6a22f54008c0",
+        "regionLabel" : "Column 2",
+        "regionName" : "aa121",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "7a42b0bd-ec04-4e8b-a774-bad0fea6f32b",
+          "columns" : [ {
+            "UUID" : "4283c48d-bbbc-483a-8dc7-22a6fffec20d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "7a42b0bd-ec04-4e8b-a774-bad0fea6f32b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"color: rgb(0, 138, 0);\">Browse the latest integration options SelectHealth has to offer</span></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4924a340-1bd7-4454-8a89-642fc698dd00",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "apiFilter" : "",
+            "arrowSize" : "Small",
+            "cardBorder" : "Medium",
+            "cardBorderRadius" : "Small",
+            "cardBoxShadow" : "Medium",
+            "cardHeight" : "Medium",
+            "cardMargin" : "Medium",
+            "detailsLabel" : "API Details",
+            "emptyMessage" : "There are no APIs available right now, stay tuned!",
+            "filter" : "",
+            "groupDetailsLabel" : "More Info ...",
+            "iconPosition" : "Left",
+            "learnMoreLabel" : "Learn more",
+            "listMode" : false,
+            "maxNumberCards" : "4",
+            "rows" : "1",
+            "showApiType" : "Groups",
+            "showArrows" : true,
+            "showButtons" : false,
+            "showDots" : false
+          },
+          "componentName" : "acm_pkg:ApiVersionCarousel",
+          "id" : "018a5b01-530a-421e-8a14-9dd0e5601c8e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4283c48d-bbbc-483a-8dc7-22a6fffec20d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a8d2e738-bf4e-4bcd-9f63-806e7fd50e99",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9ac7e283-9cc8-4e59-b385-820da9198205",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b471d1cd-242d-42ed-9bef-6a5685d09b65",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

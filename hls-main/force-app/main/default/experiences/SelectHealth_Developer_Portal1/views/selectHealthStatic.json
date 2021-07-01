@@ -1,0 +1,117 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "eacca6d0-c4fa-4975-919b-34c359686837",
+  "label" : "Select Health Static",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d09d9464-c36d-44c6-aad9-c798ad5ad15b",
+          "columns" : [ {
+            "UUID" : "502ab3cf-4839-47d9-9f88-78baf57be329",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d09d9464-c36d-44c6-aad9-c798ad5ad15b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">Contuct Us</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "2d10c24e-7ff8-4204-8c29-857d7939966c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "502ab3cf-4839-47d9-9f88-78baf57be329",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 65,
+        "sectionConfig" : {
+          "UUID" : "ae4f14e7-7171-45f6-9b59-9f67ab9844cb",
+          "columns" : [ {
+            "UUID" : "e8c67f66-65e6-4707-9389-f9ca40fe3675",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 63
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ae4f14e7-7171-45f6-9b59-9f67ab9844cb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1>To contact SelectHealth</h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e3cd11b9-7ae2-424d-b6c2-94be3faee5e3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p>Attn: Dev Support, Interoperability Developer Support&nbsp;</p><p>5381 Green Street</p><p>Murray, UT 84123</p><p><a href=\"mailto:devsupport@selecthealth.org\" rel=\"noopener noreferrer\" target=\"_blank\">devsupport@selecthealth.org</a></p><p><span style=\"color: rgb(19, 94, 124);\">﻿</span></p><p><a href=\"tel:800-538-5038\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(0, 138, 0); background-color: rgb(255, 255, 255);\">800-538-5038</a></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 138, 0);\">Weekdays 9:00 a.m. to 5:00 p.m.&nbsp;</span></p><p style=\"text-align: justify;\">Closed Saturday and Sunday&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0941ee54-c930-4973-9d9e-262069fec6cf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e8c67f66-65e6-4707-9389-f9ca40fe3675",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "76718623-00e4-4cc2-b571-f4d177c4f675",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Us"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b3d5e0d5-1bae-4567-8d97-7c2495e7a852",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "244e186f-6f7b-4dbc-9580-60bafc4e5534",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "TsMSZgH7tFv3ROa1EsX9KDokDawFYL",
+  "type" : "view",
+  "viewType" : "custom-select-health-static"
+}

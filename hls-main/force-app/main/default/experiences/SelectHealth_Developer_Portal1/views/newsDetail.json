@@ -1,0 +1,219 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "7ad6743d-2f9d-4e77-a44e-60250ccc0516",
+  "label" : "News Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "81723257-d311-42a9-b5a4-4c5bfea69a94",
+          "columns" : [ {
+            "UUID" : "ff0cd22d-3701-423e-97b9-56164fd77c83",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "81723257-d311-42a9-b5a4-4c5bfea69a94",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"../../../../s/news\" style=\"margin-right: 16pt;\" class=\"breadcrumb\">News</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">Article</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "b71350b6-b8ff-4781-b0fb-440cc30c1463",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ff0cd22d-3701-423e-97b9-56164fd77c83",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e477cb2a-5035-44d7-ae24-85ef9477ec2a",
+          "columns" : [ {
+            "UUID" : "9a180b1d-c416-40c4-bcc9-d6738d6077b2",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e477cb2a-5035-44d7-ae24-85ef9477ec2a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : "{\"layoutDefinition\":{\"componentName\":\"forceCommunity:detailLayoutWithSections\",\"attributes\":{\"showTitle\":true,\"showSubTitle\":true,\"showHeaderMetadata\":true,\"showFeaturedSection\":true,\"showFeaturedImage\":true,\"showFeaturedVideo\":true,\"showFeaturedContent\":true,\"showDateTime\":true,\"showSection1\":false,\"showSection1Title\":true,\"showSection1Image\":true,\"showSection1Content\":true,\"showSection2\":false,\"showSection2Title\":true,\"showSection2Image\":true,\"showSection2Content\":true,\"showFooterMetadata\":false,\"title\":\"{!CurrentItem.title}\",\"subTitle\":\"\",\"headerMetadata1Text\":\"\",\"headerMetadata2Text\":\"\",\"headerMetadata3Text\":\"\",\"datetime\":\"\",\"featuredImageUrl\":\"\",\"featuredVideoUrl\":\"\",\"featuredContent\":\"\",\"section1Title\":\"\",\"section1ImageUrl\":\"\",\"section1Content\":\"\",\"section2Title\":\"\",\"section2ImageUrl\":\"\",\"section2Content\":\"\",\"footerMetadata1Text\":\"\",\"footerMetadata2Text\":\"\",\"footerMetadata3Text\":\"\",\"headerTextAlignment\":\"center\",\"titleHeadingTag\":\"h2\",\"titleTextColor\":\"\",\"titleFontSize\":\"large\",\"titleTextDecoration\":\"\",\"subTitleTextColor\":\"\",\"subTitleFontSize\":\"regular\",\"subTitleTextDecoration\":\"\",\"headerMetadataTextColor\":\"\",\"headerMetadataFontSize\":\"regular\",\"headerMetadataTextDecoration\":\"\",\"featuredImageLayout\":\"cover\",\"featuredImagePosition\":\"center center\",\"featuredImageHeight\":\"450\",\"featuredImageWidth\":100,\"featuredVideoHeight\":450,\"featuredVideoUseAspectRatio\":false,\"featuredVideoAspectRatio\":\"16:9\",\"dateFormat\":\"none\",\"displayDayOfWeek\":false,\"timeFormat\":\"none\",\"timeZoneOptions\":\"none\",\"timeZoneDisplay\":\"short\",\"datetimeTextColor\":\"\",\"datetimeFontSize\":\"regular\",\"datetimeTextDecoration\":\"\",\"section1TitleTextColor\":\"\",\"section1TitleFontSize\":\"regular\",\"section1TitleTextDecoration\":\"\",\"section1ImageLayout\":\"cover\",\"section1ImagePosition\":\"center center\",\"section1ImageAlignment\":\"center\",\"section1ImageHeight\":\"450\",\"section1ImageWidth\":50,\"section1ImageOffset\":\"medium\",\"section1ImageBorderColor\":\"#ffffff\",\"section1ImageBorderStyles\":\"\",\"section2TitleTextColor\":\"\",\"section2TitleFontSize\":\"regular\",\"section2TitleTextDecoration\":\"\",\"section2ImageLayout\":\"cover\",\"section2ImagePosition\":\"center center\",\"section2ImageAlignment\":\"center\",\"section2ImageHeight\":\"450\",\"section2ImageWidth\":50,\"section2ImageOffset\":\"medium\",\"section2ImageBorderColor\":\"#ffffff\",\"section2ImageBorderStyles\":\"\",\"footerMetadataTextColor\":\"\",\"footerMetadataFontSize\":\"regular\",\"footerMetadataTextDecoration\":\"\"}},\"schemaVersion\":\"V2.0\"}"
+          },
+          "componentName" : "forceCommunity:managedContentDetail",
+          "id" : "93fd6c3f-b6e7-455c-ba01-2cd20f9aa4d5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9a180b1d-c416-40c4-bcc9-d6738d6077b2",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c8523afb-2ef1-4633-8cdf-cbae1bc8b754",
+          "columns" : [ {
+            "UUID" : "35a15da1-6541-45d2-9ebd-29799e4485e9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1daa0213-f4a5-4ebc-b21b-a2e161129239",
+            "columnKey" : "7efa3",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "3855f047-e37c-4fc6-94a3-60392a3c5b48",
+            "columnKey" : "f268f",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 98
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c8523afb-2ef1-4633-8cdf-cbae1bc8b754",
+      "regions" : [ {
+        "id" : "35a15da1-6541-45d2-9ebd-29799e4485e9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : "{\"layoutDefinition\":{\"componentName\":\"forceCommunity:detailLayoutWithSections\",\"attributes\":{\"showTitle\":true,\"showSubTitle\":true,\"showHeaderMetadata\":true,\"showFeaturedSection\":true,\"showFeaturedImage\":true,\"showFeaturedVideo\":true,\"showFeaturedContent\":true,\"showDateTime\":true,\"showSection1\":false,\"showSection1Title\":true,\"showSection1Image\":true,\"showSection1Content\":true,\"showSection2\":false,\"showSection2Title\":true,\"showSection2Image\":true,\"showSection2Content\":true,\"showFooterMetadata\":false,\"title\":\"\",\"subTitle\":\"\",\"headerMetadata1Text\":\"\",\"headerMetadata2Text\":\"\",\"headerMetadata3Text\":\"\",\"datetime\":\"\",\"featuredImageUrl\":\"{!CurrentItem.bannerImage.url}\",\"featuredVideoUrl\":\"\",\"featuredContent\":\"\",\"section1Title\":\"\",\"section1ImageUrl\":\"\",\"section1Content\":\"\",\"section2Title\":\"\",\"section2ImageUrl\":\"\",\"section2Content\":\"\",\"footerMetadata1Text\":\"\",\"footerMetadata2Text\":\"\",\"footerMetadata3Text\":\"\",\"headerTextAlignment\":\"center\",\"titleHeadingTag\":\"h2\",\"titleTextColor\":\"\",\"titleFontSize\":\"large\",\"titleTextDecoration\":\"\",\"subTitleTextColor\":\"\",\"subTitleFontSize\":\"regular\",\"subTitleTextDecoration\":\"\",\"headerMetadataTextColor\":\"\",\"headerMetadataFontSize\":\"regular\",\"headerMetadataTextDecoration\":\"\",\"featuredImageLayout\":\"cover\",\"featuredImagePosition\":\"center center\",\"featuredImageHeight\":\"316\",\"featuredImageWidth\":100,\"featuredVideoHeight\":450,\"featuredVideoUseAspectRatio\":false,\"featuredVideoAspectRatio\":\"16:9\",\"dateFormat\":\"none\",\"displayDayOfWeek\":false,\"timeFormat\":\"none\",\"timeZoneOptions\":\"none\",\"timeZoneDisplay\":\"short\",\"datetimeTextColor\":\"\",\"datetimeFontSize\":\"regular\",\"datetimeTextDecoration\":\"\",\"section1TitleTextColor\":\"\",\"section1TitleFontSize\":\"regular\",\"section1TitleTextDecoration\":\"\",\"section1ImageLayout\":\"cover\",\"section1ImagePosition\":\"center center\",\"section1ImageAlignment\":\"center\",\"section1ImageHeight\":\"450\",\"section1ImageWidth\":50,\"section1ImageOffset\":\"medium\",\"section1ImageBorderColor\":\"#ffffff\",\"section1ImageBorderStyles\":\"\",\"section2TitleTextColor\":\"\",\"section2TitleFontSize\":\"regular\",\"section2TitleTextDecoration\":\"\",\"section2ImageLayout\":\"cover\",\"section2ImagePosition\":\"center center\",\"section2ImageAlignment\":\"center\",\"section2ImageHeight\":\"450\",\"section2ImageWidth\":50,\"section2ImageOffset\":\"medium\",\"section2ImageBorderColor\":\"#ffffff\",\"section2ImageBorderStyles\":\"\",\"footerMetadataTextColor\":\"\",\"footerMetadataFontSize\":\"regular\",\"footerMetadataTextDecoration\":\"\"}},\"schemaVersion\":\"V2.0\"}"
+          },
+          "componentName" : "forceCommunity:managedContentDetail",
+          "id" : "5969d94d-7bde-453f-8da3-f2305364d382",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "config" : "{\"layoutDefinition\":{\"componentName\":\"forceCommunity:detailLayoutWithSections\",\"attributes\":{\"showTitle\":true,\"showSubTitle\":true,\"showHeaderMetadata\":true,\"showFeaturedSection\":true,\"showFeaturedImage\":true,\"showFeaturedVideo\":true,\"showFeaturedContent\":true,\"showDateTime\":true,\"showSection1\":false,\"showSection1Title\":true,\"showSection1Image\":true,\"showSection1Content\":true,\"showSection2\":false,\"showSection2Title\":true,\"showSection2Image\":true,\"showSection2Content\":true,\"showFooterMetadata\":false,\"title\":\"\",\"subTitle\":\"{!CurrentItem.excerpt}\",\"headerMetadata1Text\":\"\",\"headerMetadata2Text\":\"\",\"headerMetadata3Text\":\"\",\"datetime\":\"\",\"featuredImageUrl\":\"\",\"featuredVideoUrl\":\"\",\"featuredContent\":\"\",\"section1Title\":\"\",\"section1ImageUrl\":\"\",\"section1Content\":\"\",\"section2Title\":\"\",\"section2ImageUrl\":\"\",\"section2Content\":\"\",\"footerMetadata1Text\":\"\",\"footerMetadata2Text\":\"\",\"footerMetadata3Text\":\"\",\"headerTextAlignment\":\"center\",\"titleHeadingTag\":\"h2\",\"titleTextColor\":\"\",\"titleFontSize\":\"large\",\"titleTextDecoration\":\"\",\"subTitleTextColor\":\"\",\"subTitleFontSize\":\"regular\",\"subTitleTextDecoration\":\"\",\"headerMetadataTextColor\":\"\",\"headerMetadataFontSize\":\"regular\",\"headerMetadataTextDecoration\":\"\",\"featuredImageLayout\":\"cover\",\"featuredImagePosition\":\"center center\",\"featuredImageHeight\":\"450\",\"featuredImageWidth\":100,\"featuredVideoHeight\":450,\"featuredVideoUseAspectRatio\":false,\"featuredVideoAspectRatio\":\"16:9\",\"dateFormat\":\"none\",\"displayDayOfWeek\":false,\"timeFormat\":\"none\",\"timeZoneOptions\":\"none\",\"timeZoneDisplay\":\"short\",\"datetimeTextColor\":\"\",\"datetimeFontSize\":\"regular\",\"datetimeTextDecoration\":\"\",\"section1TitleTextColor\":\"\",\"section1TitleFontSize\":\"regular\",\"section1TitleTextDecoration\":\"\",\"section1ImageLayout\":\"cover\",\"section1ImagePosition\":\"center center\",\"section1ImageAlignment\":\"center\",\"section1ImageHeight\":\"450\",\"section1ImageWidth\":50,\"section1ImageOffset\":\"medium\",\"section1ImageBorderColor\":\"#ffffff\",\"section1ImageBorderStyles\":\"\",\"section2TitleTextColor\":\"\",\"section2TitleFontSize\":\"regular\",\"section2TitleTextDecoration\":\"\",\"section2ImageLayout\":\"cover\",\"section2ImagePosition\":\"center center\",\"section2ImageAlignment\":\"center\",\"section2ImageHeight\":\"450\",\"section2ImageWidth\":50,\"section2ImageOffset\":\"medium\",\"section2ImageBorderColor\":\"#ffffff\",\"section2ImageBorderStyles\":\"\",\"footerMetadataTextColor\":\"\",\"footerMetadataFontSize\":\"regular\",\"footerMetadataTextDecoration\":\"\"}},\"schemaVersion\":\"V2.0\"}"
+          },
+          "componentName" : "forceCommunity:managedContentDetail",
+          "id" : "2112a0ac-9fa0-43ed-8765-8bbce212a555",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1daa0213-f4a5-4ebc-b21b-a2e161129239",
+        "regionLabel" : "Column 2",
+        "regionName" : "7efa3",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "3855f047-e37c-4fc6-94a3-60392a3c5b48",
+        "regionLabel" : "Column 3",
+        "regionName" : "f268f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e94485b2-07e2-4d13-9161-66a552ab0f1e",
+          "columns" : [ {
+            "UUID" : "1551e198-c7cc-45af-ae85-c2d6e3849f4a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e94485b2-07e2-4d13-9161-66a552ab0f1e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : "{\"layoutDefinition\":{\"componentName\":\"forceCommunity:detailLayout\",\"attributes\":{\"showCaption\":true,\"showImage\":true,\"pageLayout\":\"headerFirst\",\"title\":\"\",\"subTitle\":\"\",\"imageUrl\":\"\",\"imageAltText\":\"\",\"contentBody\":\"{!CurrentItem.body}\",\"imageLayout\":\"cover\",\"imagePosition\":\"center center\",\"imageHeight\":450,\"headerTextAlignment\":\"center\",\"titleHeadingTag\":\"h2\"}},\"schemaVersion\":\"V2.0\"}"
+          },
+          "componentName" : "forceCommunity:managedContentDetail",
+          "id" : "377c7f2f-2c40-4859-8931-15add1592ef3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1551e198-c7cc-45af-ae85-c2d6e3849f4a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e9e5f422-454d-4fbd-a722-9b3cb341b07f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Content.contentTypeLabel}.{!Content.title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "63360a93-0b0b-42f9-bddc-da36144384e4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c7e398fe-3c7a-40ce-a929-6fbf9effc4ae",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "zMKqlh2P3aHwdLM2fsMhGywSdaKV5C",
+  "type" : "view",
+  "viewType" : "managed-content-news"
+}

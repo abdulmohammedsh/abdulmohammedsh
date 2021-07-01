@@ -1,0 +1,98 @@
+{
+  "appPageId" : "3312f1a9-dbfa-46b8-a10f-e5c415a40840",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "ac31b2d9-db81-4fca-9b28-85f1c9188ef4",
+  "label" : "Forums",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(0, 102, 204);\">Forums</span></h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "fb8115dd-2b5c-44c6-9efd-b3410de41e54",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "90f88d97-fe92-44c0-9b7d-7c1edfe65f16",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "defaultSortOrderHomeFeed" : "Relevance",
+        "defaultSortOrderTopicsFeed" : "Relevance",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "{!recordId}",
+        "type" : "Home"
+      },
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "6e6a18b6-fd85-4f41-8f37-3d22ece511ed",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6c8dd1b-5b57-4569-8ab3-81a8f6609c5c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "confirmationMessage" : "Got it!",
+        "followUpPromptLabel" : "Can we close your question?",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "label" : "Ask a Question",
+        "maxSuggestions" : 5,
+        "satisfactionPromptLabel" : "Did we help to answer your question?",
+        "showDetails" : false,
+        "showTopics" : true,
+        "uneditableTopics" : false
+      },
+      "componentName" : "forceCommunity:askCommunity",
+      "id" : "08da258d-ecff-4a75-9e6a-a1930da059ba",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dca3c7db-980a-4d45-8d36-a5cc480af95c",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a2531841-2643-4c22-a8a6-87e9a25d96e1",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Forums"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "cace2f2c-0d01-41cd-affa-8ffade002946",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7b15fdc3-ec9b-49fd-90e1-8c1aacda5e0a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-Forums"
+}

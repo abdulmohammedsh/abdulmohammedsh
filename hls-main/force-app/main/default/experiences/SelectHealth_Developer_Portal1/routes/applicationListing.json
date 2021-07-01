@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "configurationTags" : [ ],
+  "id" : "8553da1b-08a7-43c9-8fde-0ee9e51ad803",
+  "label" : "Application Listing",
+  "pageAccess" : "Public",
+  "routeType" : "custom-Application Listing",
+  "type" : "route",
+  "urlPrefix" : "application-listing"
+}

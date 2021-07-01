@@ -1,0 +1,66 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "f643fb24-ccaf-4f0b-9875-1616a9afc9a7",
+  "label" : "APIs",
+  "regions" : [ {
+    "id" : "09cb2758-fffe-4ca6-b7db-4bc5e92e0fe9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "arrowSize" : "Large",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "cardBoxShadow" : "Medium",
+        "cardHeight" : "Medium",
+        "cardMargin" : "Medium",
+        "detailsLabel" : "API Details",
+        "emptyMessage" : "There are no APIs available right now, stay tuned!",
+        "filter" : "",
+        "groupDetailsLabel" : "Group Details",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "listMode" : false,
+        "maxNumberCards" : "4",
+        "rows" : "1",
+        "showApiType" : "Groups",
+        "showArrows" : true,
+        "showButtons" : false,
+        "showDots" : false
+      },
+      "componentName" : "acm_pkg:ApiVersionCarousel",
+      "id" : "56abd3f9-b463-40a8-961d-e477854e9b6f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eed2b69f-4750-47e2-838b-fc85398e9e33",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f524a883-99ec-418e-9d89-624030799e73",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SelectHealth Developer Portal | APIs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "74d3bc01-d904-44a6-be93-c07959021e1a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0f79e719-dfa0-4cb2-b417-e296dcc6dc95",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "oxBuUUcYIhY6s1iEfSYIrInMVbs0YJ",
+  "type" : "view",
+  "viewType" : "custom-APIs"
+}

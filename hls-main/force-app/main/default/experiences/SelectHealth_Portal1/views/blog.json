@@ -1,0 +1,72 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "abb19aeb-9068-4b2c-b516-9eb846e6f3f1",
+  "label" : "Blog",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : ".",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "BLOG",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "61f6f3d0-fb49-436f-80ac-b9688a63b1fd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7b334f39-ae75-4b56-84f3-6890fafb9c76",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.blog.1}\" alt=\"\" /></p>\n<p style=\"text-align: center;\">Delete this component and configure the <b>CMS Collection</b> component below to bring content articles.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "00d158ac-e717-4ccc-88b6-591adafcef5a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : "{}"
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "a7662f26-a15d-40e2-b331-1e9475e1d8f9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f11ce2eb-359f-47f1-883a-e81b41c537d0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e128394b-73c2-4326-8f78-9696be26fe6b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Blog"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a9bb5a58-d2ed-4949-bc53-afab304dd8b0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5dbd712a-a04b-4c61-9428-627072e711bb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-Blog"
+}

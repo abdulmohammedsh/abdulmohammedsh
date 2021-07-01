@@ -1,0 +1,28 @@
+{
+  "definitionName" : "napili:branding-napili-merged",
+  "id" : "ed511c9b-6ed3-4942-acfd-d009900d3a7e",
+  "label" : "Customer Service",
+  "type" : "brandingSet",
+  "values" : {
+    "ActionColor" : "rgb(92, 135, 39)",
+    "BorderColor" : "rgb(127, 128, 132)",
+    "CardBackgroundColor" : "rgba(255, 255, 255, 0)",
+    "CompanyLogo" : "/file-asset/SH_Logo?v=1",
+    "DetailTextColor" : "rgb(127, 128, 132)",
+    "ErrorFontColor" : "rgb(235, 116, 37)",
+    "HeaderFonts" : "Montserrat",
+    "HeaderImage" : "",
+    "LinkColor" : "rgb(92, 135, 39)",
+    "LoginBackgroundColor" : "#F4F4F4",
+    "LoginBackgroundImage" : "",
+    "OverlayTextColor" : "#FFFFFF",
+    "PrimaryFont" : "Lato",
+    "TextColor" : "rgb(51, 51, 51)",
+    "TextTransformStyle" : "uppercase",
+    "_ActionColorDarker" : "#415f1c",
+    "_ActionColorTrans" : "rgba(92, 135, 39, 0.9)",
+    "_HoverColor" : "rgba(92, 135, 39, 0.05)",
+    "_LinkColorDarker" : "#46671e",
+    "_OverlayTextColorShadow" : "#000000"
+  }
+}

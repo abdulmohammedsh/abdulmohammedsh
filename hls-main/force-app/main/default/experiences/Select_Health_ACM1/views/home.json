@@ -1,0 +1,130 @@
+{
+  "appPageId" : "3312f1a9-dbfa-46b8-a10f-e5c415a40840",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "eb5fc68d-a459-46d3-93eb-0661046b1fc1",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.home_banner_img.1}\" /></p>\n<p style=\"text-align: center;\"><br /></p>\n<p style=\"text-align: center;\">Replace this with your hero banner image</p>\n<p style=\"text-align: center;\"><br /></p>\n<p style=\"text-align: center; font-size: 24px;\">WELCOME TO YOUR API DEVELOPER COMMUNITY</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "559ff377-859b-4dd5-bda1-c22db7c0a664",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "55e8d498-122f-484d-bd95-ded82ebf30ca",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(0, 102, 204);\">APIs</span></h1>\n                <p><br></p>\n                <p style=\"text-align: center;\">Select APIs to publish here in the <b>API Publication Management</b> configuration section</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "13c32285-9307-48e4-92fb-c604c6ec2526",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "arrowSize" : "Large",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "cardBoxShadow" : "Medium",
+        "cardHeight" : "Medium",
+        "cardMargin" : "Medium",
+        "detailsLabel" : "API Details",
+        "emptyMessage" : "There are no APIs available right now, stay tuned!",
+        "filter" : "",
+        "groupDetailsLabel" : "Group Details",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "listMode" : false,
+        "maxNumberCards" : "4",
+        "rows" : "1",
+        "showApiType" : "APIs",
+        "showArrows" : true,
+        "showButtons" : true,
+        "showDots" : false
+      },
+      "componentName" : "acm_pkg:ApiVersionCarousel",
+      "id" : "b2426a83-61a5-499a-a9d8-4da67817fceb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align:center\">\n                    <a href=\"apis\" style=\"font-size: 18px\">See more APIs...</a>\n                    </div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "990078ca-46c2-41aa-8cd2-737f9c393d0b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(0, 102, 204);\">News</span></h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "71459811-59fc-4f32-aa48-6d9b5e45cbbe",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.home_cms_banner_img.1}\" /></p>\n                    <p style=\"text-align: center;\"><br /></p>\n                    <p style=\"text-align: center; \">Replace this with a <b>CMS Collection component</b> to bring content articles</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c877dda6-945c-4bf9-97cc-8f03aae02c44",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(0, 102, 204);\">Events</span></h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "7f98b5eb-bcb6-4978-b24b-f77ff11f4168",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.home_cms_banner_img.1}\" /></p>\n                    <p style=\"text-align: center;\"><br /></p>\n                    <p style=\"text-align: center; \">Replace this with a <b>CMS Collection component</b> to bring content articles</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2951ef65-8665-4207-b0e6-b95eb28ddbe3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4e1a48cb-ad2c-4fa9-a71f-9d85791c691a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b9bf5030-78bb-4739-ad8c-1089657ed053",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "faeeb6a7-9ab4-4509-8cbb-ee84c8b0eefa",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7e7efe3c-3ea6-487e-9c30-48aa0a15de48",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

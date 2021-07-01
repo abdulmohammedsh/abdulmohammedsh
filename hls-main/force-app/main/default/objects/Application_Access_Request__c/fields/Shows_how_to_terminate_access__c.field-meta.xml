@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shows_how_to_terminate_access__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does your Privacy Policy state how the user can terminate the Application&apos;s access to user&apos;s data?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does your Privacy Policy state how the user can terminate the Application&apos;s access to user&apos;s data?</inlineHelpText>
+    <label>Shows how to terminate access?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

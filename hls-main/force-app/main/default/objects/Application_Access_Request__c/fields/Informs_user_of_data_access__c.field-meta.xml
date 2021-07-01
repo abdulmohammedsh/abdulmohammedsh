@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informs_user_of_data_access__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does your Privacy Policy inform the user how their data (i.e. PHI) will be accessed, exchanged, or used by another entity (including in the future)?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does your Privacy Policy inform the user how their data (i.e. PHI) will be accessed, exchanged, or used by another entity (including in the future)?</inlineHelpText>
+    <label>Informs user of data access?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

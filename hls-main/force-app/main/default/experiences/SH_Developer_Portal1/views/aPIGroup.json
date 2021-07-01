@@ -1,0 +1,96 @@
+{
+  "appPageId" : "3f87afb2-ebda-4d55-8721-15a347e0faf0",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "28b39896-6f27-46be-8cd1-de417ea7a8cb",
+  "label" : "API Group",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiGroupButtonText" : "Learn More about this API Group",
+        "buttonText" : "Learn More",
+        "recordId" : "{!recordId}",
+        "showAccessRequester" : false,
+        "showApiVersion" : false,
+        "showLearnMore" : true
+      },
+      "componentName" : "acm_pkg:ApiVersionHeader",
+      "id" : "e84b0d94-6576-4b72-9425-721292d1914c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "section" : "",
+        "selectedPage" : "Home"
+      },
+      "componentName" : "acm_pkg:ApiDocumentationViewer",
+      "id" : "5031837a-3d8a-4549-9689-d80fcc9db214",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c0e1dcab-b3fa-4316-8909-e8cd9f90396c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "arrowSize" : "Large",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "cardBoxShadow" : "Medium",
+        "cardHeight" : "Medium",
+        "cardMargin" : "Medium",
+        "detailsLabel" : "API Details",
+        "emptyMessage" : "There are no APIs available right now, stay tuned!",
+        "filter" : "",
+        "groupDetailsLabel" : "Group Details",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "listMode" : false,
+        "maxNumberCards" : "4",
+        "rows" : "1",
+        "showApiType" : "Children",
+        "showArrows" : true,
+        "showButtons" : true,
+        "showDots" : false
+      },
+      "componentName" : "acm_pkg:ApiVersionCarousel",
+      "id" : "6154c008-9fb7-4a98-9a6c-76cd8dddb503",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3df30500-edc2-4531-a24f-38adf9bc3dc1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a9f30aee-bbda-423f-a744-9bf59ef3f79a",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "d813eb34-6bc6-4894-b6c3-6eb1dba4a35e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0fdb4148-43e5-4cdb-b646-5444922f217d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b5092e61-cc4b-4d2c-8aee-4adc79e8a0c3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a08"
+}

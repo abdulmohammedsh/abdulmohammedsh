@@ -1,0 +1,69 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "a06c9266-09a3-4bd2-9583-4ba1c52c3b2e",
+  "label" : "Terms Of Use",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "db063283-2ee4-4ca7-8403-0f4c7c79c7d5",
+          "columns" : [ {
+            "UUID" : "cc356ffa-6f95-4e29-b2e2-840848569365",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "db063283-2ee4-4ca7-8403-0f4c7c79c7d5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1><b style=\"color: rgb(0, 138, 0);\">Scope</b></h1><p>The following terms of service (\"Terms\") govern your use of SelectHealth’s APIs and other developer services (collectively, APIs). By accessing or using SelectHealth APIs, you are agreeing to the terms below.</p><p><br></p><h1><b style=\"color: rgb(0, 138, 0);\">Accounts/Registration</b></h1><p>If you are using the APIs on behalf of an entity, you represent and warrant that you have authority to bind that entity to the Terms and when you accept the Terms, you are doing so on behalf of that entity (and all references to “you” in the Terms refer to you and that entity).</p><p><br></p><p>In order to access the APIs, you will be required to provide certain information (such as identification or contact details) as part of the registration process for the APIs, or as part of your continued use of the APIs. Any registration information you give to SelectHealth must be accurate and up to date and you must inform SelectHealth promptly of any future updates so that we can keep you informed of any changes to the APIs or the Terms, which may impact your use of the APIs.</p><p>Developer credentials (such as passwords, keys, tokens, and client IDs) issued to you by SelectHealth are intended to be used only by you and to identify any software which you are using with the APIs. You agree to keep your developer credentials confidential and make reasonable efforts to prevent other persons or entities from accessing or using your developer credentials. You agree to notify us immediately if you believe that your credentials have been discovered or used by another person or entity.</p><p><br></p><p>You may only access (or attempt to access) the APIs by the means described in the documentation of those APIs. If SelectHealth assigns you developer credentials, you must use them with the applicable APIs. SelectHealth may revoke your developer credentials for inappropriate use as determined by SelectHealth.</p><p>If you are granted production application credentials for the APIs, you may only use those credentials with the application that passed the production access review process. SelectHealth may revoke your production application credentials if you use or attempt to use them with another application or product that has not been reviewed and approved by SelectHealth.</p><p><br></p><h1><b style=\"color: rgb(0, 138, 0);\">Privacy</b></h1><p>You must comply with all applicable federal (e.g., FTC, HIPAA) and state (e.g., privacy and consumer protection) laws regarding the protection and disclosure of information obtained through a SelectHealth API. In addition, you will abide by your application’s notice of privacy practices or privacy policy.</p><p><br></p><h1><b style=\"color: rgb(0, 138, 0);\">Right to Limit</b></h1><p>Your use of the APIs will be subject to certain limitations on access, calls, or use as set forth within these Terms or otherwise provided by SelectHealth. These limitations are designed to manage the load on the system, promote equitable access, and prevent abuse, and these limitations may be adjusted without notice, as deemed necessary by SelectHealth. If SelectHealth reasonably believes that you have attempted to exceed or circumvent these limits, your ability to use the APIs may be temporarily or permanently blocked. SelectHealth may monitor your use of the APIs to, for example, improve the service or to ensure compliance with these Terms.</p><p><br></p><h1><b style=\"color: rgb(0, 138, 0);\">Service Termination</b></h1><p>If you wish to terminate your agreement with these Terms, you may do so by refraining from further use of the APIs. SelectHealth reserves the right (though not the obligation) to terminate access based on the CMS Interoperability Rule and regulatory guidance. You may petition SelectHealth to regain access to the APIs through the support email address provided by SelectHealth for the APIs. If SelectHealth determines in its sole discretion that the circumstances which led to the refusal to provide the APIs or terminate access to the APIs no longer exist, then SelectHealth may restore your access. All provisions of these Terms, shall survive termination, including, without limitation, warranty disclaimers, and limitations of liability.</p><p><br></p><h1><b style=\"color: rgb(0, 138, 0);\">Disclaimer of Warranties</b></h1><p>THE API PLATFORM AND DATA PROVIDED THROUGH THE API IS PROVIDED “AS IS” AND ON AN “AS AVAILABLE” BASIS. EXCEPT AS OTHERWISE EXPRESSLY PROVIDED IN THESE TERMS, ALL REPRESENTATIONS AND WARRANTIES OF ANY KIND OR NATURE, EXPRESS OR IMPLIED, ARISING OUT OF OR RELATED TO THE APIs OR THESE TERMS, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES REGARDING QUALITY, CORRECTNESS, ACCURACY, COMPLETENESS, COMPREHENSIVENESS, NON-INFRINGEMENT, SUITABILITY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR OTHERWISE (IRRESPECTIVE OF ANY COURSE OF DEALING, CUSTOM OR USAGE OF TRADE). SELECTHEALTH MAKES NO WARRANTY THAT THE DATA PROVIDED THROUGH THE APIs WILL BE ERROR FREE OR THAT ACCESS WILL BE CONTINUOUS OR UNINTERRUPTED. IN ADDITION, SELECTHEALTH MAKES NO REPRESENTATIONS OR WARRANTIES AS TO WHETHER THE DISCLOSURE OF DATA THROUGH THE APIs OR THE ANTICIPATED USES OF ANY DATA DISCLOSED THROUGH THE APIs COMPLIES WITH APPLICABLE LAW, THE APPLICABLE NOTICE OF PRIVACY PRACTICES, OR APPLICABLE PRIVACY POLICIES.</p><p><br></p><h1><b style=\"color: rgb(0, 138, 0);\">Limitations on Liability</b></h1><p>To the fullest extent permitted by applicable law, in no event shall SelectHealth, its affiliates and subsidiaries, and each of their respective directors, officers, employees, representatives, proprietors, partners, shareholders, servants, principals, agents, predecessors, successors, assigns, and attorneys be liable with respect to any subject matter of these Terms or any data disclosed through the APIs for any special, incidental, or consequential damages; the cost of procurement of substitute products or services; or for interruption of use or loss or corruption of data incurred by you or any third party under any theory of liability, including without limitation, contract, tort, warranty, strict liability, negligence, or otherwise, even if SelectHealth has been advised of the possibility of such damages, the maximum extent permitted by applicable law.</p><p><br></p><h1><b style=\"color: rgb(0, 138, 0);\">Indemnification</b></h1><p>You agree to defend, indemnify, and hold harmless SelectHealth, its affiliates and subsidiaries, and all of their respective directors, officers, employees, representatives, proprietors, partners, shareholders, servants, principals, agents, predecessors, successors, assigns, and attorneys from and against any and all claims, proceedings, damages, injuries, liabilities, losses, costs, and expenses (including attorney's fees and litigation expenses) relating to or arising from your use of the APIs and any breach by you of these Terms.</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4c654132-e6f4-4c4e-9fcd-4920b51971ab",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cc356ffa-6f95-4e29-b2e2-840848569365",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "007acb8d-5eba-446c-99d3-351d978291bb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Terms Of Service"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9548879d-de13-4454-af9a-4c1cc2cd4bf4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fea90ac8-60c1-4d8f-b8f0-13bdb2d9ec27",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-terms-of-use"
+}

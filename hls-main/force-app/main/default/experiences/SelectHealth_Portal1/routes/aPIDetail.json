@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "516d9658-08c9-497a-a961-25be33d93726",
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "configurationTags" : [ ],
+  "id" : "62558982-d7ef-458e-a9ff-58a72938a303",
+  "label" : "API Detail",
+  "objectApiName" : "acm_pkg__CommunityApi__c",
+  "routeType" : "detail-a08",
+  "type" : "route",
+  "urlPrefix" : "communityapi"
+}

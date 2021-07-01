@@ -1,0 +1,129 @@
+<aura:component
+  controller="SelfRegisterController"
+  implements="forceCommunity:availableForAllPageTypes"
+  access="global"
+> 
+  <ltng:require styles="/resource/slds2133/assets/styles/salesforce-lightning-design-system-ltng.min.css" />
+
+  <!-- Username and Password -->
+  <aura:attribute name="FirstName" type="String" />
+  <aura:attribute name="LastName" type="String" />
+  <aura:attribute name="Email" type="String" />
+  <aura:attribute name="errorLabel" type="String" />
+  <aura:handler event="aura:waiting" action="{!c.showSpinner}" />
+  <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}" />
+  <!--create a component attributs -->
+  <aura:attribute name="reCaptchaSuccess" type="Boolean" default="true" />
+  <aura:attribute name="Spinner" type="boolean" default="false" />
+  <aura:attribute name="registered" type="boolean" default="false" />
+  <aura:attribute name="isVisible" type="boolean" default="true" />
+  <!--loading spinner start... style=Brand Medium (blue dots)-->
+  <aura:if isTrue="{!v.Spinner}">
+    <div aura:id="spinnerId" class="slds-spinner_container">
+      <div
+        class="slds-spinner--brand slds-spinner slds-spinner--large slds-is-relative"
+        role="alert"
+      >
+        <span class="slds-assistive-text">Loading</span>
+        <div class="slds-spinner__dot-a"></div>
+        <div class="slds-spinner__dot-b"></div>
+      </div>
+    </div>
+  </aura:if>
+  <aura:if isTrue="{! v.registered}">
+      <lightning:layout class="slds-align_absolute-center">
+          <lightning:layoutItem padding="around-small" size="12" class="main-wrapper">
+            <div class="slds-box slds-theme_default slds-container_medium">
+              <p>You've successfully registered. Check your email for further login instructions.</p>
+                <p><a href="../../../s">Go to the home page</a></p>
+            </div>
+          </lightning:layoutItem>
+      </lightning:layout>
+  </aura:if>
+  <aura:if isTrue="{! !v.registered}">
+      <lightning:layout class="slds-align_absolute-center">
+        <lightning:layoutItem padding="around-small" size="12" class="main-wrapper">
+          <div aria-labelledby="newform">
+            <fieldset class="slds-box slds-theme_default slds-container_medium">
+              <legend
+                id="newform"
+                class="slds-text-heading_small slds-var-p-vertical_medium login-heading"
+              ></legend>
+                <div id="error">
+                  <ui:outputRichText value="{!v.errorLabel}" />
+                </div>
+                <form class="">
+                  <lightning:input
+                    aura:id="FormVal"
+                    label="First Name"
+                    name="FirstName"
+                    type="text"
+                    placeholder="Enter your First Name"
+                    value="{!v.FirstName}"
+                    required="true"
+                    class="slds-var-m-bottom_medium"
+                  />
+                  <lightning:input
+                    aura:id="FormVal"
+                    label="Last Name"
+                    name="LastName"
+                    type="text"
+                    placeholder="Enter your Last Name"
+                    value="{!v.LastName}"
+                    required="true"
+                    class="slds-var-m-bottom_medium"
+                  />
+                  <lightning:input
+                    aura:id="FormVal"
+                    label="Email"
+                    name="Email"
+                    type="email"
+                    placeholder="Enter your Email"
+                    value="{!v.Email}"
+                    required="true"
+                    class="slds-var-m-bottom_medium"
+                  />
+                  <lightning:button
+                    aura:id="register"
+                    label="Register"
+                    class="slds-var-m-bottom_medium slds-var-m-top_medium"
+                    variant="brand"
+                    onclick="{!c.handleRegister}"
+                  />
+                  <!-- 
+                    If recaptcha needed, 
+                      add niantec package to dev from production > app exchange,
+                      add niantec package to prod from production > app exchange,
+                      go to recaptcha tab in salesforce and add your google keys and do other configuration,
+                      remove above button, 
+                      uncomment the two elements below, and 
+                      set recaptchasuccess default to false -->
+                  <!--
+                    <niantec:recaptcha aura:id="nicaptcha" 
+                                        captchaType="v2-checkbox" 
+                                        badge="inline" 
+                                        action="homepage" 
+                                        theme="light" 
+                                        oncallback="{!c.handleCallback}"
+                                        onverifycallback="{!c.handleVerifyCallback}"
+                                        onexpiredcallback="{!c.handleExpiredCallback}" 
+                                        onerrorcallback="{!c.handleErrorCallback}"> 
+                  </niantec:recaptcha>
+                  <lightning:button
+                    aura:id="register"
+                    label="Register"
+                    class="slds-var-m-bottom_medium slds-var-m-top_medium"
+                    variant="brand"
+                    disabled="true"
+                    onclick="{!c.handleRegister}"
+                  /> -->
+                  <div class="slds-var-m-bottom_medium">
+                      <div><a href="../../login">Already have an account?</a></div>
+                  </div>
+                </form>
+            </fieldset>
+          </div>
+        </lightning:layoutItem>
+      </lightning:layout>
+  </aura:if>
+</aura:component>

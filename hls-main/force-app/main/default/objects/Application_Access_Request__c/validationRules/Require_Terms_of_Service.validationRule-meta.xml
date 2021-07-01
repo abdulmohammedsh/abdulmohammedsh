@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Terms_of_Service</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(Terms_of_Use__c)</errorConditionFormula>
+    <errorDisplayField>Terms_of_Use__c</errorDisplayField>
+    <errorMessage>You need to agree to our Terms of Service</errorMessage>
+</ValidationRule>

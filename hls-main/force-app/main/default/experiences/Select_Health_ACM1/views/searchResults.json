@@ -1,0 +1,52 @@
+{
+  "appPageId" : "3312f1a9-dbfa-46b8-a10f-e5c415a40840",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "c881ee53-5f75-41f2-b641-1234c804a6b0",
+  "label" : "Search Results",
+  "regions" : [ {
+    "id" : "b6282071-956c-472d-93d6-f5db8d8d743a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "emptyResultHeaderMessage" : "Don't give up yet.",
+        "emptyResultMainTextMessage" : "We searched but didn't find any matches with your search terms. Try different terms or explore the site.",
+        "showLineSeparator" : true,
+        "showSearchInput" : false
+      },
+      "componentName" : "acm_pkg:acmSearchResultList",
+      "id" : "23a6db2e-f61c-4db1-a280-befe5ea6fa5d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c0be5d9d-8019-4e9c-9f0c-cbeb1f634a87",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "7fe3e9ec-b1f4-4ebc-a445-cd8da62a5c9d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Search Results"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3a4ef04e-0e13-4613-abbd-3ddad550f55c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "70897081-d7c1-4f66-9592-728c82f2d8b2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-Search Results"
+}

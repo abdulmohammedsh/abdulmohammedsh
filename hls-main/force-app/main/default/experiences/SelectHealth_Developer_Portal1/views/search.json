@@ -1,0 +1,54 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "433827c9-99ea-4d5f-ae6d-4cd32339c418",
+  "label" : "Search",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">Search</a>\n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "822d0c7d-5739-4546-8651-ee85e5f1ac53",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a14c1e42-21ea-4e41-8ce1-cf6a24a93a06",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : true,
+          "name" : "FeedPost"
+        }, {
+          "isPublic" : true,
+          "name" : "Topic"
+        }, {
+          "isPublic" : true,
+          "name" : "ManagedContentVersion"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!searchString}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "04888031-afcf-4dc0-99e5-be601d9d7676",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "be7e61a3-0b49-4a75-9db4-9f98c98ac90f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "21eda1f9-afaa-4ac8-b836-c57a9b8ce26a",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Oytj8rPxikegxqBJRV9uf87XNwX6h7",
+  "type" : "view",
+  "viewType" : "global-search"
+}

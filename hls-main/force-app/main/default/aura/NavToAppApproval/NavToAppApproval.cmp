@@ -1,0 +1,5 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+	 <lightning:navigation aura:id="navService"/>
+    <lightning:button variant="brand" label="Request Application Approval" title="Click to Request API Access" onclick="{!c.openPage}"/>
+
+</aura:component>

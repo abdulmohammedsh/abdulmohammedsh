@@ -1,0 +1,72 @@
+{
+  "appPageId" : "3f87afb2-ebda-4d55-8721-15a347e0faf0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "a063bea3-672b-4309-9b89-c163cf63531c",
+  "label" : "News",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : ".",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "NEWS",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "87806e8c-01a1-4582-b68c-7b46dee7e868",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "107354f6-5dbc-4e6c-85b4-2a92ea4911dc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.news.1}\" alt=\"\" /></p>\n<p style=\"text-align: center;\">Delete this component and configure the <b>CMS Collection</b> component below to bring content articles.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b3f56722-6ab7-418a-af90-cba4faefda01",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : "{}"
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "98c0faad-b984-48a5-afad-1c748035d53c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c8da9bf5-5739-41a7-9b22-279f33e7eb84",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ba7a9472-61f2-4056-b5b3-5b0adce72757",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "News"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bca7034b-abcd-4562-87f5-2f7e4d9222f2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "147a83d1-0454-4312-adf4-1a0db188caed",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-News"
+}

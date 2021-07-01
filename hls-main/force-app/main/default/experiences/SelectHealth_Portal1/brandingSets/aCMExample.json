@@ -1,0 +1,28 @@
+{
+  "definitionName" : "citizen:branding-citizen",
+  "id" : "671a4c56-8c54-4c0b-af44-37d99c4c1d1a",
+  "label" : "ACM Example",
+  "type" : "brandingSet",
+  "values" : {
+    "ActionColor" : "rgb(67, 113, 82)",
+    "BorderColor" : "#F4F4F4",
+    "CardBackgroundColor" : "rgba(255, 255, 255, 0)",
+    "CompanyLogo" : "/file-asset/logo?v=1",
+    "DetailTextColor" : "#696969",
+    "ErrorFontColor" : "#ff9e9e",
+    "HeaderFonts" : "Roboto",
+    "LinkColor" : "#989c87",
+    "LoginBackgroundColor" : "#F4F4F4",
+    "LoginBackgroundImage" : "",
+    "OverlayTextColor" : "#FFFFFF",
+    "PageBackgroundColor" : "#FFFFFF",
+    "PrimaryFont" : "Roboto",
+    "TextColor" : "#333",
+    "TextTransformStyle" : "none",
+    "_ActionColorDarker" : "#30513b",
+    "_ActionColorTrans" : "rgba(67, 113, 82, 0.9)",
+    "_HoverColor" : "rgba(67, 113, 82, 0.05)",
+    "_LinkColorDarker" : "#848971",
+    "_OverlayTextColorShadow" : "#000"
+  }
+}

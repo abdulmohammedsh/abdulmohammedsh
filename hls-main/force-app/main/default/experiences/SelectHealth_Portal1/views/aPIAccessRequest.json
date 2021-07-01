@@ -1,0 +1,81 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "125dc0b0-6917-472a-98ff-a2f201f6e364",
+  "label" : "API Access Request",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">Request API Access</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "06b6fb18-9610-4519-a41d-ca930a3994a3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"auth-callout-container\" style=\"display:grid; gap: 10px; grid-template-columns: 100%\">\n    <div class=\"register-container\">\n        <div class=\"register-content\">\n            <h1 class=\"register-header\">Compliance and Agreement</h1>\n            <p class=\"register-body\">Requesting access to APIs requires compliance and agreement with our <a href=\"https://www.selecthealth.org/developers/terms-of-use\" style=\"color:#A9E2FF;\">Terms of Service</a> in order to access and use Interoperability APIs. \n            Our terms of service are compliant with data blocking and other CMS rules pertaining to access. </p>\n            <p class=\"register-body\">* Access to the Patient Access API requires a member/patient user account.</p>\n            <!--<a class=\"register-button\" href=\"./api-access-request\">Request API Access</a>-->\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "3b8f616e-fbc8-4780-9e49-3ee44fef8b65",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5028292b-ec1b-4b08-811b-051c33bff111",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "designDevSupportEmailLabel" : "",
+        "designDevTermsOfUseLink" : "",
+        "designServiceNowAssignmentGroupLabel" : "",
+        "designServiceNowCILabel" : "",
+        "designServiceNowEmailLabel" : "roice.morada@simplus.com",
+        "designServiceNowShortDescLabel" : ""
+      },
+      "componentName" : "c:ApplicationAccessRequestComponent",
+      "id" : "a1d33f9a-4959-4333-b097-f98efb35d0b4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6fd63a12-0cf6-4f77-9a1a-f0905f56a84c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"footer-info\"> \n    <div class=\"slds-grid footer-content-container\"> \n        <div class=\"slds-grid footer-content\"> \n            <div class=\"slds-col slds-size_1-of-3\" style=\"margin-top:auto; margin-bottom:auto;\"> \n                <!--<span style=\"padding-left:10px;\">Copyright 2021.</span><a href=\"https://selecthealth.org/\" style=\"color:#A9E2FF;\">SelectHealth</a><span>. All rights reserved.</span>-->\n            </div> \n             <div class=\"slds-col slds-size_1-of-3\" style=\"margin:auto;  \"> \n                 <span style=\"padding-left:10px;text-align:center\">&copy Copyright 2021. SelectHealth. All rights reserved.</span> \n                <!--<p style=\"font-size:12px; text-align:center\"><a href=\"https://selecthealth.org/\" style=\"color:#A9E2FF;\">SelectHealth</a></p>-->\n            </div> \n            <div class=\"slds-col slds-size_1-of-3\"> \n                <div class=\"footer-social\">\n                    <a href=\"https://www.facebook.com/selecthealth/\">\n                        <img  src=\"{!contentAsset.facebookicon.1}\" alt=\"Facebook\" /> \n                    </a>\n                    <a href=\"https://twitter.com/selecthealth/\">\n                        <img  src=\"{!contentAsset.twittericon.1}\" alt=\"Twitter\" /> \n                    </a>\n                    <a href=\"https://www.instagram.com/selecthealth/\">\n                        <img  src=\"{!contentAsset.instagramicon.1}\" alt=\"Instagram\" /> \n                    </a>\n                    <a href=\"https://www.pinterest.com/selecthealth/\">\n                        <img  src=\"{!contentAsset.pinteresticon.1}\" alt=\"Pinterest\" /> \n                    </a>\n                     <a href=\"https://www.linkedin.com/company/selecthealth/\">\n                        <img  src=\"{!contentAsset.linkedinicon.1}\" alt=\"LinkedIn\" /> \n                    </a>\n                    <a href=\"https://www.youtube.com/user/selecthealth/\">\n                        <img  src=\"{!contentAsset.youtubeicon.1}\" alt=\"Youtube\" /> \n                    </a>\n                </div> \n            </div> \n        </div> \n    </div> \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "85a5e751-6081-4782-b87a-9b82de30c720",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8db90c09-3a7a-4ba7-b3f7-b5c5a8acae4e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SelectHealth Developer Portal | API Access Request"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "940b7bdf-f027-4855-837f-2e858fcf75d0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2f1b7596-ac2e-4f39-88e5-b0662941e39d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "5VppVz65Dc4uiOOK43sff9Eaa0hNVe",
+  "type" : "view",
+  "viewType" : "custom-api-access-request"
+}

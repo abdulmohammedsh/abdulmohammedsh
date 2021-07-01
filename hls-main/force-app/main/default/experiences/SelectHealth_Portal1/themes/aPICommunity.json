@@ -1,0 +1,464 @@
+{
+  "activeBrandingSetId" : "671a4c56-8c54-4c0b-af44-37d99c4c1d1a",
+  "customCSS" : "",
+  "developerName" : "NTO",
+  "id" : "fa55ee97-4f3d-4069-af56-63e68e0c3f14",
+  "label" : "API Community",
+  "layouts" : {
+    "Home" : "65193636-091b-4ec5-a30a-c18be94a2d71",
+    "Inner" : "1903adcd-2639-40d5-bc18-45967e62bdf6",
+    "Login" : "ecc61e81-a37d-4313-ac05-2b8ef3e481c8"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "ecc61e81-a37d-4313-ac05-2b8ef3e481c8",
+    "label" : "acm_pkg__NTO_themeLayout_Login",
+    "regions" : [ {
+      "id" : "bedf94ac-d611-4bcc-98e1-2d53a4a18c21",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "64f142ac-73ee-4912-84f7-6df63a453735",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "ffff53d8-8d15-4885-a23b-b719f6a5518d",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 71, 100, 0.8)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "65193636-091b-4ec5-a30a-c18be94a2d71",
+    "label" : "acm_pkg__NTO_themeLayout_Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgb(255,255,255)",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "borderBottomColor" : "rgba(0, 0, 0, 0.5)",
+          "centerAlignLogo" : false,
+          "collapseNavMenu" : false,
+          "containHeader" : true,
+          "containHeaderWidth" : 1440,
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "#F0F0F0",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "headerHeight" : 16,
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgba(0, 0, 0, 0.8)",
+          "linkHoverColor" : "rgba(0, 0, 0, 0.7)",
+          "linkTextShadowColor" : "rgba(255, 255, 255, 0)",
+          "logoWidth" : 150,
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNavMenuOnLeft" : true,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : true
+        },
+        "componentName" : "forceCommunity:themeHeaderCompact",
+        "id" : "2e6df333-f5c2-4573-9436-9f3f49de9e64",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "navAlignment" : "left",
+              "navItemThreshold" : 7,
+              "navigationMenuEditorRefresh" : "Default_Navigation2"
+            },
+            "componentName" : "forceCommunity:themeNav",
+            "id" : "a4492b0b-c3ce-4ee8-8f39-82f9418d502b",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "6447d324-e3d1-4754-b3f2-5fc53ee0564c",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "resultPageUrl" : "search-results",
+              "resultsToShow" : "4",
+              "searchInApiGroups" : true,
+              "searchInApis" : true,
+              "searchInApplications" : true,
+              "searchInCases" : true,
+              "searchInDiscussions" : true,
+              "searchInKnowledgeArticles" : true,
+              "searchInManagedContent" : false,
+              "searchInTopics" : true
+            },
+            "componentName" : "acm_pkg:acmSearch",
+            "id" : "5693e083-35f2-477c-af49-fcabc5d54997",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "75be8410-464d-425d-ad3f-04c1421e463a",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "accountManagementLabel" : "Account Management",
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "buttonBorderColor" : "rgba(240, 240, 240, 0)",
+              "buttonBorderRadius" : 20,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "",
+              "buttonTextHoverColor" : "",
+              "communityBuilderLabel" : "Community Builder",
+              "communitySetupLabel" : "Community Setup",
+              "contactSupportLabel" : "Contact Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Home",
+              "logoutLabel" : "Logout",
+              "menuStyle" : "iconOnly",
+              "messagesLabel" : "Messages",
+              "myAccountLabel" : "My Account",
+              "showAccountManagement" : true,
+              "showContactSupport" : true,
+              "showMessages" : true,
+              "showUserSettings" : true,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "My Profile"
+            },
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "56f79bfc-856b-48dd-a5fd-fa1b5c3ec4e3",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "67f5e883-50d1-460b-8c8d-0cebeee8c728",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "dc8ebc8e-307d-4f96-97f4-e93aed9cdfda",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgb(127,128,132) url(/sfsites/c/file-asset/covidheroBigger?v=1) center right /cover",
+          "bgOverlayColor" : "rgba(0, 0, 0, 0)",
+          "captionText" : "Northern Trail Outfitters Developer Hub",
+          "captionTextColor" : "#FFFFFF",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "contentAlignment" : "left",
+          "contentWidth" : 45,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(10, 50, 198, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Our APIs",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "./apis",
+          "ctaBtnRadius" : 4,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0.9)",
+          "ctaBtnTwoBgHoverColor" : "rgba(190, 190, 190, 0.9)",
+          "ctaBtnTwoBorderColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "Request API Access",
+          "ctaBtnTwoTextColor" : "rgb(51, 51, 51)",
+          "ctaBtnTwoTextHoverColor" : "rgba(0, 0, 0, 0.8)",
+          "ctaBtnTwoUrl" : "./api-access-request",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : true,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 162,
+          "heroWidth" : 1440,
+          "showCaption" : false,
+          "showSubtitle" : true,
+          "showTitle" : true,
+          "subtitleText" : "Patient Access, Provider Directory and more with our public and private APIs.",
+          "subtitleTextColor" : "rgba(218, 237, 201, 0.8)",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "titleText" : "SelectHealth Developer Portal",
+          "titleTextColor" : "#FFFFFF",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "fb427a39-efd5-4cdc-8cfc-a096d7fd4f3d",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "resultPageUrl" : "search-results",
+              "resultsToShow" : "4",
+              "searchInApiGroups" : true,
+              "searchInApis" : true,
+              "searchInApplications" : true,
+              "searchInCases" : true,
+              "searchInDiscussions" : true,
+              "searchInKnowledgeArticles" : true,
+              "searchInManagedContent" : false,
+              "searchInTopics" : true
+            },
+            "componentName" : "acm_pkg:acmSearch",
+            "id" : "eb84cb99-0871-4dd2-b38c-02755a8b463b",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "db7d8c6f-2c6e-4ef6-b29f-331624ffcf04",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "73b1ea1e-e471-4032-b653-b0f84e42d765",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div style=\"background-color: #202120; color: white; width: 100%;\">\n\t<br/>\n    <br/>\n    <center>Copyright 2019 Northern Trail Outfitters<center>     \n    <br/>\n    <br/>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "8c2e3601-e0b5-4ff8-9e8a-0cd53b752f7d",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "5d3db192-f681-42ec-9975-871b116cf5bf",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 71, 100, 0.8)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "1903adcd-2639-40d5-bc18-45967e62bdf6",
+    "label" : "acm_pkg__NTO_themeLayout_Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgb(255,255,255)",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "borderBottomColor" : "rgba(0, 0, 0, 0.5)",
+          "centerAlignLogo" : false,
+          "collapseNavMenu" : false,
+          "containHeader" : true,
+          "containHeaderWidth" : 1440,
+          "dropdownBackgroundColor" : "#FFFFFF",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(240, 240, 240)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "headerHeight" : 16,
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgba(0, 0, 0, 0.8)",
+          "linkHoverColor" : "rgba(0, 0, 0, 0.7)",
+          "linkTextShadowColor" : "rgba(255, 255, 255, 0)",
+          "logoWidth" : 150,
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNavMenuOnLeft" : true,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : true
+        },
+        "componentName" : "forceCommunity:themeHeaderCompact",
+        "id" : "53be2771-ca2f-48fc-a98f-afa77fd41675",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "navAlignment" : "right",
+              "navItemThreshold" : 11,
+              "navigationMenuEditorRefresh" : ""
+            },
+            "componentName" : "forceCommunity:themeNav",
+            "id" : "c192d335-d6e8-4739-bd15-552f7cd92230",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "aab27636-5caa-4dd3-a9fd-7e4742fa640f",
+          "regionName" : "nav",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "resultPageUrl" : "search-results",
+              "resultsToShow" : "4",
+              "searchInApiGroups" : true,
+              "searchInApis" : true,
+              "searchInApplications" : true,
+              "searchInCases" : true,
+              "searchInDiscussions" : true,
+              "searchInKnowledgeArticles" : true,
+              "searchInManagedContent" : false,
+              "searchInTopics" : true
+            },
+            "componentName" : "acm_pkg:acmSearch",
+            "id" : "154c8a1d-e550-4548-8151-14d5f921b6d1",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "c4205dc1-f8ca-4e11-ae70-7a9537a41454",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "accountManagementLabel" : "Account Management",
+              "buttonBackgroundColor" : "",
+              "buttonBackgroundHoverColor" : "",
+              "buttonBorderColor" : "rgba(240, 240, 240, 0)",
+              "buttonBorderRadius" : 20,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "",
+              "buttonTextHoverColor" : "",
+              "communityBuilderLabel" : "Community Builder",
+              "communitySetupLabel" : "Community Setup",
+              "contactSupportLabel" : "Contact Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Home",
+              "logoutLabel" : "Logout",
+              "menuStyle" : "iconOnly",
+              "messagesLabel" : "Messages",
+              "myAccountLabel" : "My Account",
+              "showAccountManagement" : true,
+              "showContactSupport" : true,
+              "showMessages" : true,
+              "showUserSettings" : true,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "My Profile"
+            },
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "b78df390-ec6c-4653-aec4-c602c4c8e67d",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "e90c3248-fc5e-4ade-807f-d067685d7c68",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "37cbdd3d-0d1b-442a-b385-b29885344eb3",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: #262626",
+          "bgOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "captionText" : "Summer Beach, California",
+          "captionTextColor" : "#FFFFFF",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "contentAlignment" : "center",
+          "contentWidth" : 70,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Make Reservation",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "",
+          "ctaBtnRadius" : 2,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoBgHoverColor" : "rgba(255, 255, 255, 0.2)",
+          "ctaBtnTwoBorderColor" : "#FFFFFF",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "",
+          "ctaBtnTwoTextColor" : "#FFFFFF",
+          "ctaBtnTwoTextHoverColor" : "#FFFFFF",
+          "ctaBtnTwoUrl" : "",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 300,
+          "heroWidth" : 1440,
+          "showCaption" : true,
+          "showSubtitle" : false,
+          "showTitle" : true,
+          "subtitleText" : "",
+          "subtitleTextColor" : "#FFFFFF",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "titleText" : "Welcome to Paradise.",
+          "titleTextColor" : "#FFFFFF",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0.7)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "9d13f32c-bcbb-4124-9b49-6682ce31020e",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgba(255, 255, 255, 0)",
+              "borderColor" : "#FFFFFF",
+              "borderRadius" : 25,
+              "borderStyle" : "bottomborder",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "#FFFFFF",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(255, 255, 255, 0.8)",
+              "publicDropdownBackgroundColor" : "#FFFFFF",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "#F0F0F0",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showSearchButton" : false,
+              "textColor" : "#FFFFFF",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "89f56763-ddd4-4ed3-982c-ca8d0f6cb8e0",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "22fce176-7b31-4890-a5a5-134911acf623",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "ae64911c-763e-4712-86e3-9e6176727dca",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div style=\"background-color: #202120; color: white; width: 100%;\">\n\t<br/>\n    <br/>\n    <center>Copyright 2019 Northern Trail Outfitters<center>     \n    <br/>\n    <br/>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "8d7c2370-b437-4b4d-b96f-f283afcba702",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "6ffb0e50-db1f-4649-96ab-e3cb8607a05a",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

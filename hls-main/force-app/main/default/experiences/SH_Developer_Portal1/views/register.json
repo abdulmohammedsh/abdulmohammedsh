@@ -1,0 +1,50 @@
+{
+  "appPageId" : "319e43c7-2aff-45bc-80c9-f4da8ea8bc5d",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "5cef0a97-2bf0-4cd2-a679-0a2d491e991f",
+  "label" : "Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "approvedRegistration" : false,
+        "approverId" : "",
+        "confirmPasswordLabel" : "Confirm Password",
+        "emailLabel" : "Email",
+        "extraFieldsFieldSet" : "",
+        "firstnameLabel" : "First Name",
+        "includePasswordField" : false,
+        "lastnameLabel" : "Last Name",
+        "passwordLabel" : "Create Password",
+        "regConfirmUrl" : "./CheckPasswordResetEmail",
+        "startUrl" : "",
+        "submitButtonLabel" : "Sign Up"
+      },
+      "componentName" : "acm_pkg:selfRegister",
+      "id" : "3a247a20-0002-4a15-b70b-e0610fdb86a6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1a3a9d2f-415b-4f91-bcc8-8ae40144ff6a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bffcabf8-3030-4bf7-95fb-5000b461a263",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b6eacda9-7ac8-4960-9212-ea06ca974e45",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "self-register"
+}

@@ -1,0 +1,113 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "63224dd1-a76c-45d9-88cb-6eec1cc6fc6c",
+  "label" : "Feed Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b5538b45-e672-41c8-9fed-c586e199b1e6",
+          "columns" : [ {
+            "UUID" : "75327b64-bb2f-4754-b523-6781ec65ab6f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b5538b45-e672-41c8-9fed-c586e199b1e6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"../../../../s/forums\" style=\"margin-right: 16pt;\" class=\"breadcrumb\">Forums</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">Post Details</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "4c36d27f-b703-4859-8a5f-f4a4f7d884a0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "75327b64-bb2f-4754-b523-6781ec65ab6f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f6fee7cc-d08f-4cd6-aae8-60e3642c4eba",
+          "columns" : [ {
+            "UUID" : "58d7d8cf-8608-4251-8335-d0cc917cd440",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "ec0adf6e-3228-4277-9386-ea9dfc1a3b64",
+            "columnKey" : "f9de6",
+            "columnName" : "Column 2",
+            "columnWidth" : "9",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f6fee7cc-d08f-4cd6-aae8-60e3642c4eba",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "forceCommunity:topicCatalog",
+          "id" : "71ab00be-be56-4cde-b30f-2e756c53c336",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "58d7d8cf-8608-4251-8335-d0cc917cd440",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "id" : "{!feedItemId}"
+          },
+          "componentName" : "forceCommunity:feedItemDetail",
+          "id" : "48cce3a4-858b-4779-bee2-759f425a6bae",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ec0adf6e-3228-4277-9386-ea9dfc1a3b64",
+        "regionLabel" : "Column 2",
+        "regionName" : "f9de6",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ef42a76b-afa1-4eb3-bdc0-159a5c908297",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Gj13jFg5kvbizp2OOnA3cBZsXLdYIC",
+  "type" : "view",
+  "viewType" : "feeditem-generic"
+}

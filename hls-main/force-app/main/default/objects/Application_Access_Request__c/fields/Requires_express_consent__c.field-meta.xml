@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requires_express_consent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does your Privacy Policy require express consent from a user/patient before the patient&apos;s health information is accessed, exchanged, or used, including receiving express consent before a patient&apos;s health information is shared or sold (other than disclosures required by law or disclosures necessary in connection with the sale of the application or a similar transaction)?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does your Privacy Policy require express consent from a user/patient before the patient&apos;s health information is accessed, exchanged, or used, including receiving express consent before a patient&apos;s health information is shared or sold (other than disclosures required by law or disclosures necessary in connection with the sale of the application or a similar transaction)?</inlineHelpText>
+    <label>Requires express consent?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

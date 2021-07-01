@@ -1,0 +1,77 @@
+{
+  "appPageId" : "3312f1a9-dbfa-46b8-a10f-e5c415a40840",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "ebad223f-20b3-48f3-925b-148fac659f4d",
+  "label" : "APIs",
+  "regions" : [ {
+    "id" : "48a9295c-7c45-4c35-aab8-e6e91729dc14",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "apisPerPage" : "12",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "cardBoxShadow" : "Medium",
+        "cardHeight" : "Large",
+        "cardMargin" : "Small",
+        "categoryColor1" : "",
+        "categoryColor2" : "",
+        "categoryColor3" : "",
+        "categoryColor4" : "",
+        "categoryColor5" : "",
+        "categoryId1" : "None",
+        "categoryId2" : "None",
+        "categoryId3" : "None",
+        "categoryId4" : "None",
+        "categoryId5" : "None",
+        "categoryTag1" : "None",
+        "categoryTag2" : "None",
+        "categoryTag3" : "None",
+        "categoryTag4" : "None",
+        "categoryTag5" : "None",
+        "detailsLabel" : "API Details",
+        "filter" : "",
+        "groupDetailsLabel" : "Group Details",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "searchInput" : "Filters",
+        "showApiCount" : true,
+        "showApiType" : "APIs",
+        "title" : "API Catalog"
+      },
+      "componentName" : "acm_pkg:ApiCatalog",
+      "id" : "0f743bdd-8dc0-4a34-b6e9-ab0cc3909150",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6c7dadbd-570c-4b8a-b040-8dc228ee65a0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "1c987450-32fe-44d9-b9f3-39ee6bd81900",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "APIs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c842d7b6-8c00-4e63-a53b-bd65563b4b9a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "574d1558-4d13-4d9f-ac72-66c399614cae",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-APIs"
+}

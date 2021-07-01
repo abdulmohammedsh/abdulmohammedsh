@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_acknowledgement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does your application require the user to acknowledge your privacy policy before authorization?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does your application require the user to acknowledge your privacy policy before authorization?</inlineHelpText>
+    <label>Require acknowledgement?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

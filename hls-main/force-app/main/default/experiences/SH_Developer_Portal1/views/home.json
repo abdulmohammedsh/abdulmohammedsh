@@ -1,0 +1,187 @@
+{
+  "appPageId" : "3f87afb2-ebda-4d55-8721-15a347e0faf0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "6dbfa3d8-4918-47ac-9733-cc20ff3b427c",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "04e32759-003d-422a-a864-91a199f19f23",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "arrowSize" : "Large",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "cardBoxShadow" : "Medium",
+        "cardHeight" : "Medium",
+        "cardMargin" : "Medium",
+        "detailsLabel" : "API Details",
+        "emptyMessage" : "There are no APIs available right now, stay tuned!",
+        "filter" : "",
+        "groupDetailsLabel" : "Group Details",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "listMode" : false,
+        "maxNumberCards" : "4",
+        "rows" : "1",
+        "showApiType" : "APIs and Groups",
+        "showArrows" : true,
+        "showButtons" : true,
+        "showDots" : false
+      },
+      "componentName" : "acm_pkg:ApiVersionCarousel",
+      "id" : "5f16c0f3-9d82-4803-bfd2-f75542c8356c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerText" : ".",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "showSubTopics" : true,
+        "title" : "DISCOVER OUR APIs"
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "9834e367-7859-422d-aefc-3a8a8c32dc71",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align:center\">\n                    <a href=\"apis\" style=\"font-size: 18px\">See more APIs...</a>\n                    </div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e5d797d7-b4ff-4ca2-a34f-8ac0abc3682c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerText" : ".",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "showSubTopics" : true,
+        "title" : "LATEST NEWS AND EVENTS"
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "b4cae0f6-cb19-4278-a59e-d55e1b250c4d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.latest_news.3}\" alt=\"\" /></p>\n<p style=\"text-align: center;\">Delete this component and configure the <b>CMS Collection</b> component below to bring content articles.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "86b72d9c-33f9-44cf-bf12-89ca32b11360",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : "{}"
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "b3254090-1d0b-4a40-8a02-447802ed1d7d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerText" : ".",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "showSubTopics" : true,
+        "title" : "GET INSPIRED BY YOUR TRAILBLAZER PEERS"
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "98b2d17a-3ff9-4400-92ad-135c93033ef6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.get_inspired.3}\" alt=\"\" /></p>\n<p style=\"text-align: center;\">Delete this component and configure the&nbsp;CMS Collection&nbsp;component below to bring content articles.</p>\n<p style=\"text-align: center;\">&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a027b8c1-a893-47c4-825f-563b77285e6d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "config" : "{}"
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "ab10f61a-24b3-44d3-b9b3-a45b99bcd8f9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8a3b5a58-971f-4dee-aaa0-568c5d650635",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : ".",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "showSubTopics" : true,
+        "title" : "CONNECT WITH US"
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "bc4a9987-a47b-476d-9fa7-50f564a5b6fe",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "askCommunityLabel" : "Ask a Question",
+        "buttonRadius" : 0,
+        "buttonTwoRadius" : 0,
+        "confirmationMessage" : "Got it!",
+        "contactSupportLabel" : "Contact Support",
+        "followUpPromptLabel" : "Can we close your question?",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "maxSuggestions" : 5,
+        "satisfactionPromptLabel" : "Did we help to answer your question?",
+        "showDetails" : false,
+        "showTopics" : true
+      },
+      "componentName" : "siteforce:napiliFooter",
+      "id" : "8cea76e5-a2f8-4281-9bb6-1d6fc1a94497",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d1bba7eb-6df9-4048-a21b-48b5f1286b51",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f493c5b3-ef99-4182-8086-310ebe4bc559",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "32f9cf5e-9e35-40d8-9b27-b41516cf2661",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

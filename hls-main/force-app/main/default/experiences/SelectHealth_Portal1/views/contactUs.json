@@ -1,0 +1,47 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "bd6ecf3e-e126-4800-9905-f8405543f762",
+  "label" : "Contact Us",
+  "regions" : [ {
+    "id" : "2ba208c6-1363-4d6c-80de-cab2fcc69290",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Send an email to <a href=\"mailto:devsupport@selecthealth.org\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255);\">devsupport@selecthealth.org</a> with questions or comments</h1><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "fea825c3-8993-4f78-853a-16ce34f0f3a4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bad1b90f-b16c-4a49-afc0-186304057df5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "99419e0f-f3b1-4b8f-ad74-6c503a7296ce",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SelectHealth Developer Portal | Contact Us"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "543583d5-35ac-44e9-8d7a-52bab7f07faa",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1c84c736-824c-40cf-bf65-12056997c5f6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "eQDvXL5FVsAtAgphzPiqLMgS1n0t5F",
+  "type" : "view",
+  "viewType" : "custom-contact-us"
+}

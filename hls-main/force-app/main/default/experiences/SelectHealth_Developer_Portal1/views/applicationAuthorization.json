@@ -1,0 +1,149 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "5a782bcf-9de9-43e3-a3f3-704c843f6cfb",
+  "label" : "Application Authorization",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "24922648-e064-41e6-a821-f4737309522f",
+          "columns" : [ {
+            "UUID" : "dae0f0f0-a11c-4cdc-a8c0-bf91863a94a3",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 63
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "24922648-e064-41e6-a821-f4737309522f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">Request API Access</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "a99b8c4e-f332-4931-886b-a84807dc35f4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "dae0f0f0-a11c-4cdc-a8c0-bf91863a94a3",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b51a7c85-6601-49a4-a0e8-c22049c9364a",
+          "columns" : [ {
+            "UUID" : "8b60e4f9-8767-487a-a841-f053dd592644",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 105
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b51a7c85-6601-49a4-a0e8-c22049c9364a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"auth-callout-container\" style=\"display:grid; gap: 10px; grid-template-columns: 100%\">\n    <div class=\"register-container\">\n        <div class=\"register-content\">\n            <h1 class=\"register-header\">Compliance and Agreement</h1>\n            <p class=\"register-body\">Requesting access to APIs requires compliance and agreement with our <a href=\"./terms-of-service\" style=\"color:#A9E2FF;\">Terms of Service</a> in order to access and use Interoperability APIs. \n            Our terms of service are compliant with data blocking and other CMS rules pertaining to access. </p>\n            <p class=\"register-body\">* Access to the Patient Access API requires a user account.</p>\n            <!--<a class=\"register-button\" href=\"./api-access-request\">Request API Access</a>-->\n        </div>\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "31096f48-060d-4037-8221-9ad921e8f261",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8b60e4f9-8767-487a-a841-f053dd592644",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2feb23da-1136-4e92-9403-5a3a5367ec92",
+          "columns" : [ {
+            "UUID" : "4aa4c37c-f6c3-4969-96b2-fc293912da8e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2feb23da-1136-4e92-9403-5a3a5367ec92",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "designServiceNowAssignmentGroupLabel" : "ServiceNow IT ServiceDesk",
+            "designServiceNowCILabel" : "ServiceNow CI",
+            "designServiceNowShortDescLabel" : "This is test"
+          },
+          "componentName" : "c:ApplicationAccessRequestComponent",
+          "id" : "12d4790b-2113-4e2e-896b-90b31fdf0381",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4aa4c37c-f6c3-4969-96b2-fc293912da8e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "73d57dfd-fa31-487b-9e15-311dd6ef6806",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "Request Access to SelectHealth APIs",
+        "title" : "Request Access to APIs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "63592955-3b2e-4c86-860d-40544b78a5cc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "59feee9f-72da-4b83-bd03-2ca9743b1d9f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "siRTl4wQyOeWc2cPcvO5lldpVg5oNF",
+  "type" : "view",
+  "viewType" : "custom-application-authorization"
+}

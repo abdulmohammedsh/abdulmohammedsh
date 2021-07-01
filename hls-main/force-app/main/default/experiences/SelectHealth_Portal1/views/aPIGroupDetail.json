@@ -1,0 +1,85 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "c3940304-3897-4184-a691-581a0d519db8",
+  "label" : "API Group Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiGroupButtonText" : "Learn More about this API Group",
+        "buttonText" : "Learn More",
+        "recordId" : "{!recordId}",
+        "showAccessRequester" : false,
+        "showApiVersion" : false,
+        "showLearnMore" : true
+      },
+      "componentName" : "acm_pkg:ApiVersionHeader",
+      "id" : "9685747d-a88d-4de2-849c-e653623329b9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a9647749-f688-45d5-8b69-8194f111f05d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "arrowSize" : "Large",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "cardBoxShadow" : "Medium",
+        "cardHeight" : "Medium",
+        "cardMargin" : "Medium",
+        "detailsLabel" : "API Details",
+        "emptyMessage" : "There are no APIs available right now, stay tuned!",
+        "filter" : "",
+        "groupDetailsLabel" : "Group Details",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "listMode" : false,
+        "maxNumberCards" : "4",
+        "rows" : "1",
+        "showApiType" : "Children",
+        "showArrows" : true,
+        "showButtons" : false,
+        "showDots" : false
+      },
+      "componentName" : "acm_pkg:ApiVersionCarousel",
+      "id" : "d11fb171-de8d-485b-b8a4-76b7950a7e86",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5796121c-fe3f-4e80-979f-a6193ed1c4d9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8488541c-c709-4191-a965-0a32bc8a09bc",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "6d85cc8a-529b-4ed2-9f6c-24eb01862276",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c5c7c19b-fb07-4371-8f29-87ea12c2156a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cb64c7e4-a81b-4d12-afea-9d2b7f40e3e5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "gFygT0XRKm76h0IB3qcjRrEVSgPHMp",
+  "type" : "view",
+  "viewType" : "detail-a08"
+}

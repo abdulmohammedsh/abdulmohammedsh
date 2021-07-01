@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c13ba92e-8d56-4c82-8d9d-68f80145dc2e",
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "configurationTags" : [ ],
+  "id" : "e3c60990-3125-441e-9981-c5a3d5a44935",
+  "label" : "Application Listing",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-Application Listing",
+  "type" : "route",
+  "urlPrefix" : "application-listing"
+}

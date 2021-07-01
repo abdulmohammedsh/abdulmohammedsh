@@ -1,0 +1,52 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "ebb520eb-3ef9-4edd-aac1-b171282c120c",
+  "label" : "Search Results",
+  "regions" : [ {
+    "id" : "b19ae925-6f39-47e7-9e5f-89eb3d0f3cdc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "emptyResultHeaderMessage" : "Don't give up yet.",
+        "emptyResultMainTextMessage" : "We searched but didn't find any matches with your search terms. Try different terms or explore the site.",
+        "showLineSeparator" : true,
+        "showSearchInput" : false
+      },
+      "componentName" : "acm_pkg:acmSearchResultList",
+      "id" : "2d70aa46-6f51-451f-8939-fa0ee6bb0c4c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1bd35806-c240-4994-9028-50600e9fed45",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "18a547c8-bf4a-4778-9cc6-7749152b0e3e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SelectHealth Developer Portal | Search Results"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6ba1a81d-0620-4926-8b25-1b5c8b22f71a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8e98ed18-df8a-4850-9410-72f5f076982e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "A2pZXztBapZPp64vfLncLzV0vc0hlo",
+  "type" : "view",
+  "viewType" : "custom-Search Results"
+}

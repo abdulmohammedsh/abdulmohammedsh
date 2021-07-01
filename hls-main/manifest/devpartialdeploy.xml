@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ApplicationAccessRequestControllerTest</members>
+        <members>ApplicationAccessRequestController</members>
+        <members>ApplicationAccessRequestEmail</members>
+        <members>ApplicationAccessRequestEmailTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SelectHealth_Portal</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>ApplicationAccessRequestComponent</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+     <types>
+        <name>SH_Dev_Support_Email_Label</name>
+        <name>SH_Dev_Terms_Of_Use_Link</name>
+        <name>SH_ServiceNow_AssignmentGroup_Label</name>
+        <name>SH_ServiceNow_CI_Label</name>
+        <name>SH_ServiceNow_Email_Label</name>
+        <name>SH_ServiceNow_ShortDesc_Label</name>
+         <name>CustomLabels</name>
+    </types>
+     <types>
+        <members>Application_Access_Request__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>51.0</version>
+</Package>

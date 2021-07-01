@@ -1,0 +1,47 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "3bd8d75e-f112-4c57-a9fe-4bc46a71a88e",
+  "label" : "Blog",
+  "regions" : [ {
+    "id" : "6ad3eae7-f1fa-4e51-8e29-34704d77deb2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : "{}"
+      },
+      "componentName" : "forceCommunity:dynamicCollection",
+      "id" : "05c7e2af-558c-4ab6-87ff-592a2d84b463",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "75d1855c-1b2e-45c3-ae24-24826a90a221",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c2382e74-0ecd-451e-a2e6-98fcd4be4b08",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Blog"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5c641a65-2cc2-475f-a549-6937280047c4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7d7b4847-059e-43cd-8539-0a9c401cbd9b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-Blog"
+}

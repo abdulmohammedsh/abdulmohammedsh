@@ -1,0 +1,39 @@
+{
+  "appPageId" : "0a1b0efc-7d5f-43b0-af11-afb5b5af0344",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "a14b1250-fed1-44f0-8951-8aca5dfb7f6a",
+  "label" : "Login",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"margin:24px;text-align:center\">\n    <img style=\"width:180px; margin:auto\" src=\"https://api-selecthealth--dev--c.documentforce.com/file-asset-public/shwhitelogo?oid=00D0q0000001sQt\" />\n</div>\n<div style=\"text-align:center;margin:24px auto 0px;padding:12px 24px 24px;\">\n    <div style=\"\">\n    \t<a style=\"border-radius: 4px;background-color: rgb(93, 134, 46);padding: 12px 24px;color: #fff;margin: 0px 0px 10px 0px;width: 100%;display: block;\" href=\"../../login\">Login Here</a>\n    </div>\n    <div>\n    \t<a style=\"border-radius: 4px;background-color: #fff;padding: 12px 24px;color: #333;margin: 0px 0px 10px 0px;width: 100%;display: block;\" href=\"../../s/login/SelfRegister\">Register Here</a>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f33881e5-c07d-4789-abc9-1e5d236d5978",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3b5391a1-0b4c-4d94-94f0-18cea1877d9d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Login"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5230ff3f-ee3d-4a4c-bb79-16111191452e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9181207b-473a-4c77-9554-7ed3173bf746",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "login-home"
+}

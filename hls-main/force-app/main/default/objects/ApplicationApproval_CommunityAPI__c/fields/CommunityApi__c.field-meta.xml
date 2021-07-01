@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CommunityApi__c</fullName>
+    <externalId>false</externalId>
+    <label>CommunityApi</label>
+    <referenceTo>acm_pkg__CommunityApi__c</referenceTo>
+    <relationshipLabel>ApplicationApproval_CommunityAPIs</relationshipLabel>
+    <relationshipName>ApplicationApproval_CommunityAPIs</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

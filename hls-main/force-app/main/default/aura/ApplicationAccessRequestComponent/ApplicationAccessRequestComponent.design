@@ -1,0 +1,8 @@
+<design:component>
+	<design:attribute name="designDevSupportEmailLabel" label="Dev Support Email" description="Default: devsupport@selecthealth.org"/>
+    <design:attribute name="designDevTermsOfUseLink" label="Dev Terms Of Use Link" description="Default: https://www.selecthealth.org/"/>
+    <design:attribute name="designServiceNowEmailLabel" label="ServiceNow Email" description="Default: intermountain@service-now.com"/>
+    <design:attribute name="designServiceNowAssignmentGroupLabel" label="ServiceNow Assignment Group" description="Default: CyberSecurity SelectHealth"/>
+    <design:attribute name="designServiceNowCILabel" label="ServiceNow CI" description="Default: Interop Core"/>
+    <design:attribute name="designServiceNowShortDescLabel" label="ServiceNow Short Description" description="Default: Interoperability - Developer Access Request"/>
+</design:component>

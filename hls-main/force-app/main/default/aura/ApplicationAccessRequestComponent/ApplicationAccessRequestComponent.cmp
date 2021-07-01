@@ -1,0 +1,142 @@
+<aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes" controller="ApplicationAccessRequestController" access="global">
+    <aura:attribute name="showSpinner" type="Boolean"/>
+    <aura:attribute name="showOtherCheckboxes" type="Boolean" default="false"/>
+    <aura:attribute name="applicationAccessRequest" type="Application_Access_Request__c"/>
+    <aura:attribute name="fieldLabelMap" type="Map"/>
+    <aura:attribute name="availableAPIs" type="Map"/>
+    <aura:attribute name="selectedAPIs" type="List"/>
+    
+    <!--HELPTEXT LABELS-->
+    <aura:attribute name="applicationPrivacyPolicyLabel" type="String"/>
+    <aura:attribute name="requireAcknowledgementLabel" type="String"/>
+    <aura:attribute name="informUserOfDataAccessLabel" type="String"/>
+    <aura:attribute name="userDataWillBeSharedLabel" type="String"/>
+    <aura:attribute name="captureUserDeviceDataLabel" type="String"/>
+    <aura:attribute name="requireExpressConsentLabel" type="String"/>
+    <aura:attribute name="showsHowToTerminateAccessLabel" type="String"/>
+    <aura:attribute name="instructionsToDisposeDataLabel" type="String"/>
+    <!--HELPTEXT LABELS-->
+    
+    <!--DEFAULT ATTRIBUTES-->
+    <aura:attribute name="defaultDevSupportEmailLabel" type="String"/>
+    <aura:attribute name="defaultDevTermsOfUseLink" type="String"/>
+    <aura:attribute name="defaultServiceNowEmailLabel" type="String"/>
+    <aura:attribute name="defaultServiceNowAssignmentGroupLabel" type="String"/>
+    <aura:attribute name="defaultServiceNowCILabel" type="String"/>
+    <aura:attribute name="defaultServiceNowShortDescLabel" type="String"/>
+    <!--DEFAULT ATTRIBUTES-->
+    
+    <!--DESIGN ATTRIBUTES-->
+    <aura:attribute name="designDevSupportEmailLabel" type="String"/>
+    <aura:attribute name="designDevTermsOfUseLink" type="String"/>
+    <aura:attribute name="designServiceNowEmailLabel" type="String"/>
+    <aura:attribute name="designServiceNowAssignmentGroupLabel" type="String"/>
+    <aura:attribute name="designServiceNowCILabel" type="String"/>
+    <aura:attribute name="designServiceNowShortDescLabel" type="String"/>
+    <!--DESIGN ATTRIBUTES-->
+    
+    <!--HANDLERS-->
+    <aura:handler name="init" value="{!this}" action="{!c.handleInit}"/>
+    <!--HANDLERS-->
+    
+    <aura:if isTrue="{!v.showSpinner}">
+        <lightning:spinner />
+    </aura:if>
+    
+    <lightning:layout class="slds-align_absolute-center" verticalAlign="center">
+        <lightning:layoutItem size="6">
+            <fieldset class="slds-box slds-theme_default slds-container_medium">
+                <legend id="newform" class="slds-text-heading_small slds-var-p-vertical_medium login-heading"/>
+                <div class="slds-form-element">
+                    <div class="slds-grid slds-gutters slds-p-horizontal_medium">
+                        <div class="slds-col slds-size_1-of-1">
+                            <lightning:dualListbox aura:id="APISelect" required="true" name="APISelect" label="Select APIs" sourceLabel="Available APIs" selectedLabel="Selected APIs" options="{!v.availableAPIs}" value="{!v.selectedAPIs}" min="1"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <lightning:recordEditForm aura:id="applicationAccessRequestForm" objectApiName="Application_Access_Request__c" density="comfy">
+                        <lightning:messages/>
+                        <lightning:inputField aura:id="Application_Name__c" fieldName="Application_Name__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Application_Description__c" fieldName="Application_Description__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Application_Release_Date__c" fieldName="Application_Release_Date__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Developer_Contact_Name__c" fieldName="Developer_Contact_Name__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Developer_Contact_Email__c" fieldName="Developer_Contact_Email__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Company_Name__c" fieldName="Company_Name__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Company_URL__c" fieldName="Company_URL__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Company_Address__c" fieldName="Company_Address__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Company_Primary_Contact__c" fieldName="Company_Primary_Contact__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Company_Primary_Contact_Email__c" fieldName="Company_Primary_Contact_Email__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Application_Redirect_URL_s__c" fieldName="Application_Redirect_URL_s__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <lightning:inputField aura:id="Terms_of_Use__c" fieldName="Terms_of_Use__c" required="true" messageWhenValueMissing="This field is required. Please fill in with necessary detail/s."/>
+                        <div class="booleanParentDiv">
+                            <div class="slds-form-element slds-form-element_stacked">
+                                <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="Application_privacy_policy__c">
+                                    <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                    {!v.applicationPrivacyPolicyLabel}
+                                    <lightning:inputField aura:id="Application_privacy_policy__c" class="booleanFields" fieldName="Application_privacy_policy__c" variant="label-hidden" onchange="{!c.handleApplicationPrivacyPolicyToggle}"/>
+                                </label>
+                            </div>
+                        </div>
+                        <aura:if isTrue="{!v.showOtherCheckboxes}">
+                            <div class="booleanParentDiv">
+                                <div class="slds-form-element slds-form-element_stacked">
+                                    <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="Require_acknowledgement__c">
+                                        <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                        {!v.requireAcknowledgementLabel}
+                                    </label>
+                                    <lightning:inputField aura:id="Require_acknowledgement__c" class="booleanFields" fieldName="Require_acknowledgement__c" variant="label-hidden"/>
+                                </div>
+                                <div class="slds-form-element slds-form-element_stacked">
+                                    <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="Informs_user_of_data_access__c">
+                                        <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                        {!v.informUserOfDataAccessLabel}
+                                    </label>
+                                    <lightning:inputField aura:id="Informs_user_of_data_access__c" class="booleanFields" fieldName="Informs_user_of_data_access__c" variant="label-hidden"/>
+                                </div>
+                                <div class="slds-form-element slds-form-element_stacked">
+                                    <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="User_data_will_be_shared__c">
+                                        <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                        {!v.userDataWillBeSharedLabel}
+                                    </label>
+                                    <lightning:inputField aura:id="User_data_will_be_shared__c" class="booleanFields" fieldName="User_data_will_be_shared__c" variant="label-hidden"/>
+                                </div>
+                                <div class="slds-form-element slds-form-element_stacked">
+                                    <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="Captures_user_device_data__c">
+                                        <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                        {!v.captureUserDeviceDataLabel}
+                                    </label>
+                                    <lightning:inputField aura:id="Captures_user_device_data__c" class="booleanFields" fieldName="Captures_user_device_data__c" variant="label-hidden"/>
+                                </div>
+                                <div class="slds-form-element slds-form-element_stacked">
+                                    <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="Requires_express_consent__c">
+                                        <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                        {!v.requireExpressConsentLabel}
+                                    </label>
+                                    <lightning:inputField aura:id="Requires_express_consent__c" class="booleanFields" fieldName="Requires_express_consent__c" variant="label-hidden"/>
+                                </div>
+                                <div class="slds-form-element slds-form-element_stacked">
+                                    <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="Shows_how_to_terminate_access__c">
+                                        <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                        {!v.showsHowToTerminateAccessLabel}
+                                    </label>
+                                    <lightning:inputField aura:id="Shows_how_to_terminate_access__c" class="booleanFields" fieldName="Shows_how_to_terminate_access__c" variant="label-hidden"/>
+                                </div>
+                                <div class="slds-form-element slds-form-element_stacked">
+                                    <label class="slds-form-element__label" style="margin-right: 0.5rem;" for="Instructions_to_dispose_health_data__c">
+                                        <abbr lightning-input_input="" title="required" class="slds-required">*</abbr>
+                                        {!v.instructionsToDisposeDataLabel}
+                                    </label>
+                                    <lightning:inputField aura:id="Instructions_to_dispose_health_data__c" class="booleanFields" fieldName="Instructions_to_dispose_health_data__c" variant="label-hidden"/>
+                                </div>
+                            </div>
+                            <lightning:inputField aura:id="Enter_the_URL_for_your_privacy_policy__c" fieldName="Enter_the_URL_for_your_privacy_policy__c"/>
+                        </aura:if>
+                        <div class="slds-float_right">
+                            <lightning:button variant="brand" label="Submit" onclick="{!c.handleValidateRequest}"/>
+                        </div>
+                    </lightning:recordEditForm>
+                </div>
+            </fieldset>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

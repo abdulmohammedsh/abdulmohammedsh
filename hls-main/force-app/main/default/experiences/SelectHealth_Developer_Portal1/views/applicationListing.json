@@ -1,0 +1,63 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "53fed719-39c5-4aab-a20d-6d50ebe6e453",
+  "label" : "Application Listing",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">My Applications</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "17b6e3df-88a2-4864-9c72-ae9d26691dfd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "46bad5f5-da10-43c3-a548-e77ad973aa46",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "None",
+        "cardBoxShadow" : "None",
+        "cardHeight" : "3",
+        "cardMargin" : "Medium",
+        "cardWidth" : "Thin",
+        "newAppUrl" : "You have no applications registered yet. To register an application, go to an API and request access."
+      },
+      "componentName" : "acm_pkg:ApiApplicationListing",
+      "id" : "bdc92ea3-e82f-4e15-9916-e783cb5cea67",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2427fe0a-6eab-4628-81b1-a399036635e3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f92aa432-9aef-492a-a2d7-629c881db70d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Application Listing"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5e2ff713-2b75-4f71-ae43-f34f7deac2eb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f2843d88-59b8-4732-84ca-32957a15e58d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "N1yoNbpAx5TRVMpuTJAzYonfYMk180",
+  "type" : "view",
+  "viewType" : "custom-Application Listing"
+}

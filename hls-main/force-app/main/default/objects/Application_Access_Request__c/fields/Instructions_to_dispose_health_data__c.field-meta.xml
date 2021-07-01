@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instructions_to_dispose_health_data__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Do you publicly host a link with instructions for how a user can request to securely and completely dispose of their identifiable health data?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do you publicly host a link with instructions for how a user can request to securely and completely dispose of their identifiable health data?</inlineHelpText>
+    <label>Instructions to dispose health data?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>SelectHealth Developer Portal</container>
+    <containerType>Network</containerType>
+    <label>acm_template_Nav0</label>
+    <navigationMenuItem>
+        <label>Forums</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/forums</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>My Applications</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/application-listing</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

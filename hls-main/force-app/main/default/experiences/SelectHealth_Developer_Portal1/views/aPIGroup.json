@@ -1,0 +1,97 @@
+{
+  "appPageId" : "2cf62aa6-579e-4fd7-9e3f-00022e01d93c",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "id" : "f87ff83d-5b98-4d78-9867-c484dc5429d7",
+  "label" : "API Group",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiGroupButtonText" : "Learn More about this API Group",
+        "buttonText" : "Learn More",
+        "recordId" : "{!recordId}",
+        "showAccessRequester" : false,
+        "showApiVersion" : false,
+        "showLearnMore" : true
+      },
+      "componentName" : "acm_pkg:ApiVersionHeader",
+      "id" : "5d8da807-1f6c-4799-935c-d7924767a078",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3886b281-647f-4cda-a9df-489d50a5d5b7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiFilter" : "",
+        "arrowSize" : "Large",
+        "cardBorder" : "Thin",
+        "cardBorderRadius" : "Small",
+        "cardBoxShadow" : "Medium",
+        "cardHeight" : "Medium",
+        "cardMargin" : "Medium",
+        "detailsLabel" : "API Details",
+        "emptyMessage" : "There are no APIs available right now, stay tuned!",
+        "filter" : "",
+        "groupDetailsLabel" : "Group Details",
+        "iconPosition" : "Left",
+        "learnMoreLabel" : "Learn more",
+        "listMode" : false,
+        "maxNumberCards" : "4",
+        "rows" : "1",
+        "showApiType" : "Children",
+        "showArrows" : true,
+        "showButtons" : true,
+        "showDots" : false
+      },
+      "componentName" : "acm_pkg:ApiVersionCarousel",
+      "id" : "c4245578-7fe1-4636-aa94-786395e07b19",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a8463fd1-97e6-48c5-9b7a-66d5b2517a98",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9576f744-e242-4f37-a0d0-8aa78037c53e",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "section" : "",
+        "selectedPage" : ""
+      },
+      "componentName" : "acm_pkg:ApiDocumentationViewer",
+      "id" : "de05291a-2a07-4365-8cc7-f3d6f00f86e3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cef36554-5966-4dcf-a5d5-f97d0bea36c2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "{!Record._Title}",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9c8be517-d8da-464f-9d42-118a59736204",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dd111cf6-0255-4f92-b174-c563f26ef22f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "DmTqknbLuvvPGq1qnMsfkJsVM9lOc4",
+  "type" : "view",
+  "viewType" : "detail-a08"
+}

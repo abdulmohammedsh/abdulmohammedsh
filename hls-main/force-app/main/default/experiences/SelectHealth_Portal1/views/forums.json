@@ -1,0 +1,47 @@
+{
+  "appPageId" : "09f4f5f4-0ad6-4446-9c59-4faab9f8bb0b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "57c8bde5-6117-404c-b8e8-bf6deb3c1619",
+  "label" : "Forums",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"\" class=\"breadcrumb-container\">\n \t<a href=\"../../../../s/\" style=\"\" class=\"breadcrumb\">Home</a> \n \t<span  style=\"margin-right: 16pt;\" class=\"breadcrumb\">&gt;</span> \n \t<a href=\"\" style=\"margin-right: 16pt;\" class=\"breadcrumb-last\">Forums</a> \n \t<hr style=\"\" class=\"breadcrumb-hr\"> \n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "6675d16b-7d96-42b9-a154-73f40eaf9b6a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "733b2002-eae1-4948-96a1-91799aebe99e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "bf4dfc04-181e-48ea-80b8-006e51cecae5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "345bd25c-f8be-4702-ae0c-5207fe4073ae",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Forums"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "25ee2615-ee66-4a3c-b4be-bc95b7d67372",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "28afbaa5-a6c3-4bd3-aac8-f4226b8d50a0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "9B4CmkqaGVj8ZFm83nc4bGvJqzcaec",
+  "type" : "view",
+  "viewType" : "custom-Forums"
+}

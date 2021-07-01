@@ -1,0 +1,144 @@
+{
+  "appPageId" : "3f87afb2-ebda-4d55-8721-15a347e0faf0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "87284442-af92-4fe8-9d16-a1f940ac8986",
+  "label" : "API Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "apiGroupButtonText" : "Learn More about this API Group",
+        "buttonText" : "Learn More",
+        "recordId" : "{!recordId}",
+        "showAccessRequester" : false,
+        "showApiVersion" : false,
+        "showLearnMore" : true
+      },
+      "componentName" : "acm_pkg:ApiVersionHeader",
+      "id" : "859b1bc5-581c-487f-a7f4-d819448ee88e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5d18f694-e76d-4447-9899-aff1256ae723",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "595f49ed-e25b-4065-9efc-3a267274074f",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "4702eedc-2c4d-44a7-a564-ac1bc38348f5",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "API Documentation"
+          }, {
+            "UUID" : "92b82c89-5fe8-43e4-862c-f7516277a44e",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "API Specs"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "595f49ed-e25b-4065-9efc-3a267274074f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}",
+            "section" : "",
+            "selectedPage" : ""
+          },
+          "componentName" : "acm_pkg:ApiDocumentationViewer",
+          "id" : "ae535a1c-9fb5-4902-80e4-d130b90ffa83",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4702eedc-2c4d-44a7-a564-ac1bc38348f5",
+        "regionLabel" : "API Documentation",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "color" : "#314a73",
+            "layout" : "Horizontal",
+            "options" : "All",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "acm_pkg:specDownloader",
+          "id" : "b942fba5-474d-4bf1-992b-22a9279b4395",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonColor" : "{!'white'}",
+            "buttonHoverColor" : "{!'white'}",
+            "errorColor" : "",
+            "headlineFontFamily" : "",
+            "initWithEndpointsExpanded" : "",
+            "isFilteringEnabled" : "",
+            "linkHoverColor" : "",
+            "methodLabelDeleteBackgroundColor" : "",
+            "methodLabelDeleteColor" : "",
+            "methodLabelGetBackgroundColor" : "",
+            "methodLabelGetColor" : "",
+            "methodLabelHeadBackgroundColor" : "",
+            "methodLabelHeadColor" : "",
+            "methodLabelOptionsBackgroundColor" : "",
+            "methodLabelOptionsColor" : "",
+            "methodLabelPatchBackgroundColor" : "",
+            "methodLabelPatchColor" : "",
+            "methodLabelPostBackgroundColor" : "",
+            "methodLabelPostColor" : "",
+            "methodLabelPutBackgroundColor" : "",
+            "methodLabelPutColor" : "",
+            "recordId" : "{!recordId}",
+            "showDocumentation" : "",
+            "unsupportedApiGroupMessage" : "API Console is not supported for API Group."
+          },
+          "componentName" : "acm_pkg:ApiConsole",
+          "id" : "4b11321b-8d4a-4216-bbb1-dbef1e0cfe8b",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "92b82c89-5fe8-43e4-862c-f7516277a44e",
+        "regionLabel" : "API Specs",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "822140e8-94ed-4217-9ff3-76f6d1469d6e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2aa290a6-014f-47a5-b133-059574f60249",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "661ac251-0f8c-45fa-b077-5a77ccff4228",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a08"
+}
